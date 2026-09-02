@@ -1,0 +1,6 @@
+{
+  "trajectory_dir": "runs/appworld/appworld_train_maxsteps50_baseline/raw_trajectories",
+  "output": "runs/mining/appworld_library.json",
+  "min_frequency": 5,
+  "min_coverage": 0.1
+}

@@ -1,0 +1,3658 @@
+{
+  "metadata": {
+    "builder": "tau2_telecom/scripts/mine_macro_library.py",
+    "max_length": 4,
+    "max_patterns": 200,
+    "min_lcb": 0.5,
+    "min_length": 2,
+    "min_support": 3,
+    "n_tasks": 91,
+    "prefix": "tau2_top5_partial_skeleton_sup3_lcb050"
+  },
+  "patterns": [
+    {
+      "action_types": [
+        "check_status_bar",
+        "toggle_airplane_mode",
+        "check_sim_status",
+        "reseat_sim_card"
+      ],
+      "coverage": 0.2088,
+      "frequency": 95,
+      "lcb": 0.9551,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_001_4x_check_status_bar_toggle_airplane_mode",
+      "posterior_mean": 0.9897,
+      "precision": 1.0,
+      "score": 17.4377,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.9551,
+      "support": 95,
+      "task_support": 19
+    },
+    {
+      "action_types": [
+        "can_send_mms",
+        "check_apn_settings",
+        "reset_apn_settings",
+        "reboot_device"
+      ],
+      "coverage": 0.1319,
+      "frequency": 60,
+      "lcb": 0.9309,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_002_4x_can_send_mms_check_apn_settings",
+      "posterior_mean": 0.9839,
+      "precision": 1.0,
+      "score": 15.3069,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.9309,
+      "support": 60,
+      "task_support": 12
+    },
+    {
+      "action_types": [
+        "get_customer_by_phone",
+        "get_details_by_id",
+        "get_details_by_id"
+      ],
+      "coverage": 0.6154,
+      "frequency": 162,
+      "lcb": 0.9731,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_003_3x_get_customer_by_phone_get_details_by_id",
+      "posterior_mean": 0.9939,
+      "precision": 1.0,
+      "score": 14.8707,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.9731,
+      "support": 162,
+      "task_support": 56
+    },
+    {
+      "action_types": [
+        "get_data_usage",
+        "refuel_data",
+        "run_speed_test",
+        "can_send_mms"
+      ],
+      "coverage": 0.1099,
+      "frequency": 49,
+      "lcb": 0.9168,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_004_4x_get_data_usage_refuel_data",
+      "posterior_mean": 0.9804,
+      "precision": 1.0,
+      "score": 14.3456,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.9168,
+      "support": 49,
+      "task_support": 10
+    },
+    {
+      "action_types": [
+        "toggle_roaming",
+        "can_send_mms",
+        "check_apn_settings",
+        "reset_apn_settings"
+      ],
+      "coverage": 0.0989,
+      "frequency": 45,
+      "lcb": 0.9101,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_005_4x_toggle_roaming_can_send_mms",
+      "posterior_mean": 0.9787,
+      "precision": 1.0,
+      "score": 13.9375,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.9101,
+      "support": 45,
+      "task_support": 9
+    },
+    {
+      "action_types": [
+        "check_wifi_calling_status",
+        "toggle_wifi_calling",
+        "can_send_mms",
+        "check_app_permissions"
+      ],
+      "coverage": 0.0989,
+      "frequency": 45,
+      "lcb": 0.9101,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_006_4x_check_wifi_calling_status_toggle_wifi_calling",
+      "posterior_mean": 0.9787,
+      "precision": 1.0,
+      "score": 13.9375,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.9101,
+      "support": 45,
+      "task_support": 9
+    },
+    {
+      "action_types": [
+        "make_payment",
+        "get_details_by_id",
+        "resume_line",
+        "check_status_bar"
+      ],
+      "coverage": 0.0989,
+      "frequency": 44,
+      "lcb": 0.9082,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_007_4x_make_payment_get_details_by_id",
+      "posterior_mean": 0.9783,
+      "precision": 1.0,
+      "score": 13.8295,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.9082,
+      "support": 44,
+      "task_support": 9
+    },
+    {
+      "action_types": [
+        "toggle_airplane_mode",
+        "check_sim_status",
+        "reseat_sim_card"
+      ],
+      "coverage": 0.2088,
+      "frequency": 95,
+      "lcb": 0.9551,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_008_3x_toggle_airplane_mode_check_sim_status",
+      "posterior_mean": 0.9897,
+      "precision": 1.0,
+      "score": 13.0783,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.9551,
+      "support": 95,
+      "task_support": 19
+    },
+    {
+      "action_types": [
+        "get_customer_by_phone",
+        "get_details_by_id",
+        "get_details_by_id",
+        "get_details_by_id"
+      ],
+      "coverage": 0.5934,
+      "frequency": 182,
+      "lcb": 0.6599,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_009_4x_get_customer_by_phone_get_details_by_id",
+      "posterior_mean": 0.7174,
+      "precision": 0.7198,
+      "score": 12.8895,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.6599,
+      "support": 182,
+      "task_support": 54
+    },
+    {
+      "action_types": [
+        "check_app_permissions",
+        "grant_app_permission",
+        "grant_app_permission",
+        "can_send_mms"
+      ],
+      "coverage": 0.0879,
+      "frequency": 36,
+      "lcb": 0.8903,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_010_4x_check_app_permissions_grant_app_permission",
+      "posterior_mean": 0.9737,
+      "precision": 1.0,
+      "score": 12.8589,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.8903,
+      "support": 36,
+      "task_support": 8
+    },
+    {
+      "action_types": [
+        "check_payment_request",
+        "make_payment",
+        "get_details_by_id",
+        "resume_line"
+      ],
+      "coverage": 0.0989,
+      "frequency": 35,
+      "lcb": 0.8875,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_011_4x_check_payment_request_make_payment",
+      "posterior_mean": 0.973,
+      "precision": 1.0,
+      "score": 12.7219,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.8875,
+      "support": 35,
+      "task_support": 9
+    },
+    {
+      "action_types": [
+        "check_wifi_calling_status",
+        "check_app_permissions",
+        "grant_app_permission",
+        "can_send_mms"
+      ],
+      "coverage": 0.0769,
+      "frequency": 34,
+      "lcb": 0.8846,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_012_4x_check_wifi_calling_status_check_app_permissions",
+      "posterior_mean": 0.9722,
+      "precision": 1.0,
+      "score": 12.5808,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.8846,
+      "support": 34,
+      "task_support": 7
+    },
+    {
+      "action_types": [
+        "run_speed_test",
+        "check_network_status",
+        "toggle_roaming",
+        "run_speed_test"
+      ],
+      "coverage": 0.0769,
+      "frequency": 34,
+      "lcb": 0.8846,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_013_4x_run_speed_test_check_network_status",
+      "posterior_mean": 0.9722,
+      "precision": 1.0,
+      "score": 12.5808,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.8846,
+      "support": 34,
+      "task_support": 7
+    },
+    {
+      "action_types": [
+        "check_apn_settings",
+        "reset_apn_settings",
+        "reboot_device"
+      ],
+      "coverage": 0.1758,
+      "frequency": 80,
+      "lcb": 0.9472,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_014_3x_check_apn_settings_reset_apn_settings",
+      "posterior_mean": 0.9878,
+      "precision": 1.0,
+      "score": 12.4868,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.9472,
+      "support": 80,
+      "task_support": 16
+    },
+    {
+      "action_types": [
+        "toggle_wifi_calling",
+        "can_send_mms",
+        "check_app_permissions",
+        "grant_app_permission"
+      ],
+      "coverage": 0.0879,
+      "frequency": 33,
+      "lcb": 0.8816,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_015_4x_toggle_wifi_calling_can_send_mms",
+      "posterior_mean": 0.9714,
+      "precision": 1.0,
+      "score": 12.4352,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.8816,
+      "support": 33,
+      "task_support": 8
+    },
+    {
+      "action_types": [
+        "check_app_permissions",
+        "grant_app_permission",
+        "can_send_mms"
+      ],
+      "coverage": 0.1868,
+      "frequency": 76,
+      "lcb": 0.9446,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_016_3x_check_app_permissions_grant_app_permission",
+      "posterior_mean": 0.9872,
+      "precision": 1.0,
+      "score": 12.3089,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.9446,
+      "support": 76,
+      "task_support": 17
+    },
+    {
+      "action_types": [
+        "toggle_data",
+        "toggle_roaming",
+        "can_send_mms",
+        "check_apn_settings"
+      ],
+      "coverage": 0.0659,
+      "frequency": 30,
+      "lcb": 0.8714,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_017_4x_toggle_data_toggle_roaming",
+      "posterior_mean": 0.9688,
+      "precision": 1.0,
+      "score": 11.9696,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.8714,
+      "support": 30,
+      "task_support": 6
+    },
+    {
+      "action_types": [
+        "check_apn_settings",
+        "check_wifi_calling_status",
+        "check_app_permissions",
+        "grant_app_permission"
+      ],
+      "coverage": 0.0879,
+      "frequency": 29,
+      "lcb": 0.8676,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_018_4x_check_apn_settings_check_wifi_calling_status",
+      "posterior_mean": 0.9677,
+      "precision": 1.0,
+      "score": 11.8036,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.8676,
+      "support": 29,
+      "task_support": 8
+    },
+    {
+      "action_types": [
+        "toggle_roaming",
+        "can_send_mms",
+        "check_apn_settings"
+      ],
+      "coverage": 0.1429,
+      "frequency": 64,
+      "lcb": 0.9349,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_019_3x_toggle_roaming_can_send_mms",
+      "posterior_mean": 0.9848,
+      "precision": 1.0,
+      "score": 11.7078,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.9349,
+      "support": 64,
+      "task_support": 13
+    },
+    {
+      "action_types": [
+        "check_status_bar",
+        "toggle_airplane_mode",
+        "check_sim_status"
+      ],
+      "coverage": 0.2857,
+      "frequency": 96,
+      "lcb": 0.8609,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_020_3x_check_status_bar_toggle_airplane_mode",
+      "posterior_mean": 0.9184,
+      "precision": 0.9271,
+      "score": 11.6211,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.8609,
+      "support": 96,
+      "task_support": 26
+    },
+    {
+      "action_types": [
+        "can_send_mms",
+        "check_apn_settings",
+        "reset_apn_settings"
+      ],
+      "coverage": 0.1319,
+      "frequency": 60,
+      "lcb": 0.9309,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_021_3x_can_send_mms_check_apn_settings",
+      "posterior_mean": 0.9839,
+      "precision": 1.0,
+      "score": 11.4802,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.9309,
+      "support": 60,
+      "task_support": 12
+    },
+    {
+      "action_types": [
+        "refuel_data",
+        "run_speed_test",
+        "can_send_mms"
+      ],
+      "coverage": 0.1319,
+      "frequency": 59,
+      "lcb": 0.9298,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_022_3x_refuel_data_run_speed_test",
+      "posterior_mean": 0.9836,
+      "precision": 1.0,
+      "score": 11.4207,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.9298,
+      "support": 59,
+      "task_support": 12
+    },
+    {
+      "action_types": [
+        "check_status_bar",
+        "check_network_status",
+        "check_apn_settings",
+        "check_wifi_calling_status"
+      ],
+      "coverage": 0.0769,
+      "frequency": 29,
+      "lcb": 0.8226,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_023_4x_check_status_bar_check_network_status",
+      "posterior_mean": 0.9355,
+      "precision": 0.9655,
+      "score": 11.0801,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.8226,
+      "support": 29,
+      "task_support": 7
+    },
+    {
+      "action_types": [
+        "reboot_device",
+        "can_send_mms",
+        "check_wifi_calling_status",
+        "toggle_wifi_calling"
+      ],
+      "coverage": 0.0549,
+      "frequency": 25,
+      "lcb": 0.8499,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_024_4x_reboot_device_can_send_mms",
+      "posterior_mean": 0.963,
+      "precision": 1.0,
+      "score": 11.076,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.8499,
+      "support": 25,
+      "task_support": 5
+    },
+    {
+      "action_types": [
+        "check_network_status",
+        "toggle_roaming",
+        "run_speed_test"
+      ],
+      "coverage": 0.1319,
+      "frequency": 56,
+      "lcb": 0.901,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_025_3x_check_network_status_toggle_roaming",
+      "posterior_mean": 0.9655,
+      "precision": 0.9821,
+      "score": 10.8806,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.901,
+      "support": 56,
+      "task_support": 12
+    },
+    {
+      "action_types": [
+        "check_network_status",
+        "check_apn_settings",
+        "check_wifi_calling_status",
+        "check_app_permissions"
+      ],
+      "coverage": 0.0549,
+      "frequency": 24,
+      "lcb": 0.8447,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_026_4x_check_network_status_check_apn_settings",
+      "posterior_mean": 0.9615,
+      "precision": 1.0,
+      "score": 10.8758,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.8447,
+      "support": 24,
+      "task_support": 5
+    },
+    {
+      "action_types": [
+        "toggle_wifi_calling",
+        "can_send_mms",
+        "check_app_permissions"
+      ],
+      "coverage": 0.1099,
+      "frequency": 50,
+      "lcb": 0.9183,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_027_3x_toggle_wifi_calling_can_send_mms",
+      "posterior_mean": 0.9808,
+      "precision": 1.0,
+      "score": 10.8315,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.9183,
+      "support": 50,
+      "task_support": 10
+    },
+    {
+      "action_types": [
+        "check_apn_settings",
+        "check_wifi_calling_status",
+        "check_app_permissions"
+      ],
+      "coverage": 0.1209,
+      "frequency": 49,
+      "lcb": 0.9168,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_028_3x_check_apn_settings_check_wifi_calling_status",
+      "posterior_mean": 0.9804,
+      "precision": 1.0,
+      "score": 10.7592,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.9168,
+      "support": 49,
+      "task_support": 11
+    },
+    {
+      "action_types": [
+        "check_wifi_calling_status",
+        "toggle_wifi_calling",
+        "check_app_permissions",
+        "grant_app_permission"
+      ],
+      "coverage": 0.0549,
+      "frequency": 23,
+      "lcb": 0.8391,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_029_4x_check_wifi_calling_status_toggle_wifi_calling",
+      "posterior_mean": 0.96,
+      "precision": 1.0,
+      "score": 10.6671,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.8391,
+      "support": 23,
+      "task_support": 5
+    },
+    {
+      "action_types": [
+        "get_details_by_id",
+        "resume_line",
+        "check_status_bar"
+      ],
+      "coverage": 0.0989,
+      "frequency": 43,
+      "lcb": 0.9063,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_030_3x_get_details_by_id_resume_line",
+      "posterior_mean": 0.9778,
+      "precision": 1.0,
+      "score": 10.2891,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.9063,
+      "support": 43,
+      "task_support": 9
+    },
+    {
+      "action_types": [
+        "get_details_by_id",
+        "get_details_by_id",
+        "get_details_by_id"
+      ],
+      "coverage": 0.7582,
+      "frequency": 259,
+      "lcb": 0.6566,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_031_3x_get_details_by_id_get_details_by_id",
+      "posterior_mean": 0.705,
+      "precision": 0.7066,
+      "score": 10.2729,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.6566,
+      "support": 259,
+      "task_support": 69
+    },
+    {
+      "action_types": [
+        "check_wifi_calling_status",
+        "check_app_permissions",
+        "grant_app_permission"
+      ],
+      "coverage": 0.1209,
+      "frequency": 42,
+      "lcb": 0.9043,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_032_3x_check_wifi_calling_status_check_app_permissions",
+      "posterior_mean": 0.9773,
+      "precision": 1.0,
+      "score": 10.2041,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.9043,
+      "support": 42,
+      "task_support": 11
+    },
+    {
+      "action_types": [
+        "check_app_permissions",
+        "grant_app_permission",
+        "grant_app_permission"
+      ],
+      "coverage": 0.0879,
+      "frequency": 40,
+      "lcb": 0.9001,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_033_3x_check_app_permissions_grant_app_permission",
+      "posterior_mean": 0.9762,
+      "precision": 1.0,
+      "score": 10.0273,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.9001,
+      "support": 40,
+      "task_support": 8
+    },
+    {
+      "action_types": [
+        "resume_line",
+        "check_status_bar",
+        "toggle_airplane_mode",
+        "check_sim_status"
+      ],
+      "coverage": 0.044,
+      "frequency": 20,
+      "lcb": 0.8197,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_034_4x_resume_line_check_status_bar",
+      "posterior_mean": 0.9545,
+      "precision": 1.0,
+      "score": 9.9827,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.8197,
+      "support": 20,
+      "task_support": 4
+    },
+    {
+      "action_types": [
+        "get_details_by_id",
+        "send_payment_request",
+        "check_payment_request",
+        "make_payment"
+      ],
+      "coverage": 0.044,
+      "frequency": 20,
+      "lcb": 0.8197,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_035_4x_get_details_by_id_send_payment_request",
+      "posterior_mean": 0.9545,
+      "precision": 1.0,
+      "score": 9.9827,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.8197,
+      "support": 20,
+      "task_support": 4
+    },
+    {
+      "action_types": [
+        "can_send_mms",
+        "check_app_permissions",
+        "grant_app_permission",
+        "can_send_mms"
+      ],
+      "coverage": 0.0549,
+      "frequency": 20,
+      "lcb": 0.8197,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_036_4x_can_send_mms_check_app_permissions",
+      "posterior_mean": 0.9545,
+      "precision": 1.0,
+      "score": 9.9827,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.8197,
+      "support": 20,
+      "task_support": 5
+    },
+    {
+      "action_types": [
+        "check_wifi_calling_status",
+        "check_app_permissions",
+        "grant_app_permission",
+        "grant_app_permission"
+      ],
+      "coverage": 0.044,
+      "frequency": 20,
+      "lcb": 0.8197,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_037_4x_check_wifi_calling_status_check_app_permissions",
+      "posterior_mean": 0.9545,
+      "precision": 1.0,
+      "score": 9.9827,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.8197,
+      "support": 20,
+      "task_support": 4
+    },
+    {
+      "action_types": [
+        "can_send_mms",
+        "check_apn_settings",
+        "check_wifi_calling_status",
+        "toggle_wifi_calling"
+      ],
+      "coverage": 0.044,
+      "frequency": 20,
+      "lcb": 0.8197,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_038_4x_can_send_mms_check_apn_settings",
+      "posterior_mean": 0.9545,
+      "precision": 1.0,
+      "score": 9.9827,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.8197,
+      "support": 20,
+      "task_support": 4
+    },
+    {
+      "action_types": [
+        "check_status_bar",
+        "toggle_airplane_mode"
+      ],
+      "coverage": 0.4615,
+      "frequency": 159,
+      "lcb": 0.9543,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_039_2x_check_status_bar_toggle_airplane_mode",
+      "posterior_mean": 0.9814,
+      "precision": 0.9874,
+      "score": 9.6624,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.9543,
+      "support": 159,
+      "task_support": 42
+    },
+    {
+      "action_types": [
+        "check_apn_settings",
+        "check_wifi_calling_status",
+        "toggle_wifi_calling"
+      ],
+      "coverage": 0.0769,
+      "frequency": 35,
+      "lcb": 0.8875,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_040_3x_check_apn_settings_check_wifi_calling_status",
+      "posterior_mean": 0.973,
+      "precision": 1.0,
+      "score": 9.5414,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.8875,
+      "support": 35,
+      "task_support": 7
+    },
+    {
+      "action_types": [
+        "check_apn_settings",
+        "reset_apn_settings",
+        "reboot_device",
+        "can_send_mms"
+      ],
+      "coverage": 0.1099,
+      "frequency": 18,
+      "lcb": 0.804,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_041_4x_check_apn_settings_reset_apn_settings",
+      "posterior_mean": 0.95,
+      "precision": 1.0,
+      "score": 9.469,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.804,
+      "support": 18,
+      "task_support": 10
+    },
+    {
+      "action_types": [
+        "can_send_mms",
+        "check_network_status",
+        "toggle_roaming",
+        "can_send_mms"
+      ],
+      "coverage": 0.044,
+      "frequency": 18,
+      "lcb": 0.804,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_042_4x_can_send_mms_check_network_status",
+      "posterior_mean": 0.95,
+      "precision": 1.0,
+      "score": 9.469,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.804,
+      "support": 18,
+      "task_support": 4
+    },
+    {
+      "action_types": [
+        "toggle_roaming",
+        "can_send_mms",
+        "check_apn_settings",
+        "check_wifi_calling_status"
+      ],
+      "coverage": 0.044,
+      "frequency": 18,
+      "lcb": 0.804,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_043_4x_toggle_roaming_can_send_mms",
+      "posterior_mean": 0.95,
+      "precision": 1.0,
+      "score": 9.469,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.804,
+      "support": 18,
+      "task_support": 4
+    },
+    {
+      "action_types": [
+        "toggle_wifi_calling",
+        "check_app_permissions",
+        "grant_app_permission",
+        "can_send_mms"
+      ],
+      "coverage": 0.044,
+      "frequency": 18,
+      "lcb": 0.804,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_044_4x_toggle_wifi_calling_check_app_permissions",
+      "posterior_mean": 0.95,
+      "precision": 1.0,
+      "score": 9.469,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.804,
+      "support": 18,
+      "task_support": 4
+    },
+    {
+      "action_types": [
+        "run_speed_test",
+        "check_network_status",
+        "toggle_roaming"
+      ],
+      "coverage": 0.0769,
+      "frequency": 34,
+      "lcb": 0.8846,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_045_3x_run_speed_test_check_network_status",
+      "posterior_mean": 0.9722,
+      "precision": 1.0,
+      "score": 9.4356,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.8846,
+      "support": 34,
+      "task_support": 7
+    },
+    {
+      "action_types": [
+        "grant_app_permission",
+        "grant_app_permission",
+        "can_send_mms"
+      ],
+      "coverage": 0.0769,
+      "frequency": 34,
+      "lcb": 0.8846,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_046_3x_grant_app_permission_grant_app_permission",
+      "posterior_mean": 0.9722,
+      "precision": 1.0,
+      "score": 9.4356,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.8846,
+      "support": 34,
+      "task_support": 7
+    },
+    {
+      "action_types": [
+        "get_data_usage",
+        "refuel_data",
+        "run_speed_test"
+      ],
+      "coverage": 0.1209,
+      "frequency": 48,
+      "lcb": 0.8085,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_047_3x_get_data_usage_refuel_data",
+      "posterior_mean": 0.9,
+      "precision": 0.9167,
+      "score": 9.2325,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.8085,
+      "support": 48,
+      "task_support": 11
+    },
+    {
+      "action_types": [
+        "can_send_mms",
+        "check_app_permissions",
+        "grant_app_permission"
+      ],
+      "coverage": 0.0879,
+      "frequency": 32,
+      "lcb": 0.8784,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_048_3x_can_send_mms_check_app_permissions",
+      "posterior_mean": 0.9706,
+      "precision": 1.0,
+      "score": 9.2138,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.8784,
+      "support": 32,
+      "task_support": 8
+    },
+    {
+      "action_types": [
+        "make_payment",
+        "get_details_by_id",
+        "resume_line"
+      ],
+      "coverage": 0.0989,
+      "frequency": 31,
+      "lcb": 0.875,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_049_3x_make_payment_get_details_by_id",
+      "posterior_mean": 0.9697,
+      "precision": 1.0,
+      "score": 9.0974,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.875,
+      "support": 31,
+      "task_support": 9
+    },
+    {
+      "action_types": [
+        "grant_app_permission",
+        "can_send_mms"
+      ],
+      "coverage": 0.2747,
+      "frequency": 112,
+      "lcb": 0.9616,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_050_2x_grant_app_permission_can_send_mms",
+      "posterior_mean": 0.9912,
+      "precision": 1.0,
+      "score": 9.092,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.9616,
+      "support": 112,
+      "task_support": 25
+    },
+    {
+      "action_types": [
+        "reset_apn_settings",
+        "reboot_device"
+      ],
+      "coverage": 0.2418,
+      "frequency": 110,
+      "lcb": 0.961,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_051_2x_reset_apn_settings_reboot_device",
+      "posterior_mean": 0.9911,
+      "precision": 1.0,
+      "score": 9.0514,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.961,
+      "support": 110,
+      "task_support": 22
+    },
+    {
+      "action_types": [
+        "check_status_bar",
+        "check_network_status",
+        "check_apn_settings"
+      ],
+      "coverage": 0.0989,
+      "frequency": 41,
+      "lcb": 0.8082,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_052_3x_check_status_bar_check_network_status",
+      "posterior_mean": 0.907,
+      "precision": 0.9268,
+      "score": 8.8828,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.8082,
+      "support": 41,
+      "task_support": 9
+    },
+    {
+      "action_types": [
+        "check_payment_request",
+        "make_payment",
+        "get_details_by_id"
+      ],
+      "coverage": 0.0989,
+      "frequency": 29,
+      "lcb": 0.8676,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_053_3x_check_payment_request_make_payment",
+      "posterior_mean": 0.9677,
+      "precision": 1.0,
+      "score": 8.8527,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.8676,
+      "support": 29,
+      "task_support": 9
+    },
+    {
+      "action_types": [
+        "get_customer_by_phone",
+        "get_details_by_id"
+      ],
+      "coverage": 0.6593,
+      "frequency": 98,
+      "lcb": 0.9564,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_054_2x_get_customer_by_phone_get_details_by_id",
+      "posterior_mean": 0.99,
+      "precision": 1.0,
+      "score": 8.7897,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.9564,
+      "support": 98,
+      "task_support": 60
+    },
+    {
+      "action_types": [
+        "check_app_permissions",
+        "grant_app_permission"
+      ],
+      "coverage": 0.2747,
+      "frequency": 96,
+      "lcb": 0.9555,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_055_2x_check_app_permissions_grant_app_permission",
+      "posterior_mean": 0.9898,
+      "precision": 1.0,
+      "score": 8.7427,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.9555,
+      "support": 96,
+      "task_support": 25
+    },
+    {
+      "action_types": [
+        "check_wifi_calling_status",
+        "toggle_wifi_calling"
+      ],
+      "coverage": 0.2088,
+      "frequency": 95,
+      "lcb": 0.9551,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_056_2x_check_wifi_calling_status_toggle_wifi_calling",
+      "posterior_mean": 0.9897,
+      "precision": 1.0,
+      "score": 8.7189,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.9551,
+      "support": 95,
+      "task_support": 19
+    },
+    {
+      "action_types": [
+        "can_send_mms",
+        "check_apn_settings"
+      ],
+      "coverage": 0.2088,
+      "frequency": 92,
+      "lcb": 0.9537,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_057_2x_can_send_mms_check_apn_settings",
+      "posterior_mean": 0.9894,
+      "precision": 1.0,
+      "score": 8.6456,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.9537,
+      "support": 92,
+      "task_support": 19
+    },
+    {
+      "action_types": [
+        "check_sim_status",
+        "reseat_sim_card"
+      ],
+      "coverage": 0.2527,
+      "frequency": 108,
+      "lcb": 0.9214,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_058_2x_check_sim_status_reseat_sim_card",
+      "posterior_mean": 0.9636,
+      "precision": 0.9722,
+      "score": 8.5941,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.9214,
+      "support": 108,
+      "task_support": 23
+    },
+    {
+      "action_types": [
+        "get_details_by_id",
+        "resume_line",
+        "check_status_bar",
+        "toggle_airplane_mode"
+      ],
+      "coverage": 0.044,
+      "frequency": 15,
+      "lcb": 0.7744,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_059_4x_get_details_by_id_resume_line",
+      "posterior_mean": 0.9412,
+      "precision": 1.0,
+      "score": 8.5886,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.7744,
+      "support": 15,
+      "task_support": 4
+    },
+    {
+      "action_types": [
+        "can_send_mms",
+        "check_app_permissions",
+        "grant_app_permission",
+        "grant_app_permission"
+      ],
+      "coverage": 0.033,
+      "frequency": 15,
+      "lcb": 0.7744,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_060_4x_can_send_mms_check_app_permissions",
+      "posterior_mean": 0.9412,
+      "precision": 1.0,
+      "score": 8.5886,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.7744,
+      "support": 15,
+      "task_support": 3
+    },
+    {
+      "action_types": [
+        "toggle_data",
+        "can_send_mms",
+        "check_apn_settings",
+        "reset_apn_settings"
+      ],
+      "coverage": 0.033,
+      "frequency": 15,
+      "lcb": 0.7744,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_061_4x_toggle_data_can_send_mms",
+      "posterior_mean": 0.9412,
+      "precision": 1.0,
+      "score": 8.5886,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.7744,
+      "support": 15,
+      "task_support": 3
+    },
+    {
+      "action_types": [
+        "refuel_data",
+        "check_status_bar",
+        "toggle_airplane_mode"
+      ],
+      "coverage": 0.0769,
+      "frequency": 31,
+      "lcb": 0.8324,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_062_3x_refuel_data_check_status_bar",
+      "posterior_mean": 0.9394,
+      "precision": 0.9677,
+      "score": 8.5759,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.8324,
+      "support": 31,
+      "task_support": 7
+    },
+    {
+      "action_types": [
+        "check_status_bar",
+        "check_network_status",
+        "reseat_sim_card"
+      ],
+      "coverage": 0.0549,
+      "frequency": 25,
+      "lcb": 0.8499,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_063_3x_check_status_bar_check_network_status",
+      "posterior_mean": 0.963,
+      "precision": 1.0,
+      "score": 8.307,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.8499,
+      "support": 25,
+      "task_support": 5
+    },
+    {
+      "action_types": [
+        "can_send_mms",
+        "check_wifi_calling_status",
+        "toggle_wifi_calling"
+      ],
+      "coverage": 0.0549,
+      "frequency": 25,
+      "lcb": 0.8499,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_064_3x_can_send_mms_check_wifi_calling_status",
+      "posterior_mean": 0.963,
+      "precision": 1.0,
+      "score": 8.307,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.8499,
+      "support": 25,
+      "task_support": 5
+    },
+    {
+      "action_types": [
+        "check_sim_status",
+        "reseat_sim_card",
+        "set_network_mode_preference",
+        "toggle_data"
+      ],
+      "coverage": 0.033,
+      "frequency": 14,
+      "lcb": 0.7625,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_065_4x_check_sim_status_reseat_sim_card",
+      "posterior_mean": 0.9375,
+      "precision": 1.0,
+      "score": 8.2594,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.7625,
+      "support": 14,
+      "task_support": 3
+    },
+    {
+      "action_types": [
+        "get_details_by_id",
+        "get_details_by_id"
+      ],
+      "coverage": 0.989,
+      "frequency": 572,
+      "lcb": 0.6823,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_066_2x_get_details_by_id_get_details_by_id",
+      "posterior_mean": 0.7143,
+      "precision": 0.715,
+      "score": 8.2099,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.6823,
+      "support": 572,
+      "task_support": 90
+    },
+    {
+      "action_types": [
+        "check_apn_settings",
+        "reset_apn_settings"
+      ],
+      "coverage": 0.1758,
+      "frequency": 76,
+      "lcb": 0.9446,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_067_2x_check_apn_settings_reset_apn_settings",
+      "posterior_mean": 0.9872,
+      "precision": 1.0,
+      "score": 8.2059,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.9446,
+      "support": 76,
+      "task_support": 16
+    },
+    {
+      "action_types": [
+        "set_network_mode_preference",
+        "toggle_data",
+        "toggle_roaming"
+      ],
+      "coverage": 0.0659,
+      "frequency": 24,
+      "lcb": 0.8447,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_068_3x_set_network_mode_preference_toggle_data",
+      "posterior_mean": 0.9615,
+      "precision": 1.0,
+      "score": 8.1568,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.8447,
+      "support": 24,
+      "task_support": 6
+    },
+    {
+      "action_types": [
+        "check_wifi_calling_status",
+        "toggle_wifi_calling",
+        "can_send_mms"
+      ],
+      "coverage": 0.1209,
+      "frequency": 27,
+      "lcb": 0.8116,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_069_3x_check_wifi_calling_status_toggle_wifi_calling",
+      "posterior_mean": 0.931,
+      "precision": 0.963,
+      "score": 8.0245,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.8116,
+      "support": 27,
+      "task_support": 11
+    },
+    {
+      "action_types": [
+        "toggle_airplane_mode",
+        "check_sim_status"
+      ],
+      "coverage": 0.2637,
+      "frequency": 105,
+      "lcb": 0.8721,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_070_2x_toggle_airplane_mode_check_sim_status",
+      "posterior_mean": 0.9252,
+      "precision": 0.9333,
+      "score": 8.0151,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.8721,
+      "support": 105,
+      "task_support": 24
+    },
+    {
+      "action_types": [
+        "toggle_data",
+        "toggle_roaming",
+        "can_send_mms"
+      ],
+      "coverage": 0.0659,
+      "frequency": 23,
+      "lcb": 0.8391,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_071_3x_toggle_data_toggle_roaming",
+      "posterior_mean": 0.96,
+      "precision": 1.0,
+      "score": 8.0003,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.8391,
+      "support": 23,
+      "task_support": 6
+    },
+    {
+      "action_types": [
+        "check_wifi_calling_status",
+        "check_app_permissions"
+      ],
+      "coverage": 0.1758,
+      "frequency": 69,
+      "lcb": 0.9393,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_072_2x_check_wifi_calling_status_check_app_permissions",
+      "posterior_mean": 0.9859,
+      "precision": 1.0,
+      "score": 7.9812,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.9393,
+      "support": 69,
+      "task_support": 16
+    },
+    {
+      "action_types": [
+        "run_speed_test",
+        "can_send_mms"
+      ],
+      "coverage": 0.1538,
+      "frequency": 68,
+      "lcb": 0.9385,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_073_2x_run_speed_test_can_send_mms",
+      "posterior_mean": 0.9857,
+      "precision": 1.0,
+      "score": 7.9471,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.9385,
+      "support": 68,
+      "task_support": 14
+    },
+    {
+      "action_types": [
+        "reseat_sim_card",
+        "set_network_mode_preference",
+        "toggle_data",
+        "toggle_roaming"
+      ],
+      "coverage": 0.033,
+      "frequency": 13,
+      "lcb": 0.7492,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_074_4x_reseat_sim_card_set_network_mode_preference",
+      "posterior_mean": 0.9333,
+      "precision": 1.0,
+      "score": 7.909,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.7492,
+      "support": 13,
+      "task_support": 3
+    },
+    {
+      "action_types": [
+        "set_network_mode_preference",
+        "toggle_data_saver_mode",
+        "run_speed_test"
+      ],
+      "coverage": 0.0549,
+      "frequency": 22,
+      "lcb": 0.8331,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_075_3x_set_network_mode_preference_toggle_data_saver_mo",
+      "posterior_mean": 0.9583,
+      "precision": 1.0,
+      "score": 7.8369,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.8331,
+      "support": 22,
+      "task_support": 5
+    },
+    {
+      "action_types": [
+        "check_network_status",
+        "check_apn_settings",
+        "check_wifi_calling_status"
+      ],
+      "coverage": 0.0879,
+      "frequency": 29,
+      "lcb": 0.781,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_076_3x_check_network_status_check_apn_settings",
+      "posterior_mean": 0.9032,
+      "precision": 0.931,
+      "score": 7.8078,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.781,
+      "support": 29,
+      "task_support": 8
+    },
+    {
+      "action_types": [
+        "check_network_status",
+        "toggle_roaming"
+      ],
+      "coverage": 0.1648,
+      "frequency": 64,
+      "lcb": 0.9349,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_077_2x_check_network_status_toggle_roaming",
+      "posterior_mean": 0.9848,
+      "precision": 1.0,
+      "score": 7.8052,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.9349,
+      "support": 64,
+      "task_support": 15
+    },
+    {
+      "action_types": [
+        "toggle_wifi_calling",
+        "check_app_permissions",
+        "grant_app_permission"
+      ],
+      "coverage": 0.0549,
+      "frequency": 21,
+      "lcb": 0.8267,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_078_3x_toggle_wifi_calling_check_app_permissions",
+      "posterior_mean": 0.9565,
+      "precision": 1.0,
+      "score": 7.666,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.8267,
+      "support": 21,
+      "task_support": 5
+    },
+    {
+      "action_types": [
+        "reset_apn_settings",
+        "reboot_device",
+        "can_send_mms",
+        "check_wifi_calling_status"
+      ],
+      "coverage": 0.0879,
+      "frequency": 34,
+      "lcb": 0.5872,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_079_4x_reset_apn_settings_reboot_device",
+      "posterior_mean": 0.7222,
+      "precision": 0.7353,
+      "score": 7.6532,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.5872,
+      "support": 34,
+      "task_support": 8
+    },
+    {
+      "action_types": [
+        "toggle_data",
+        "can_send_mms",
+        "check_apn_settings"
+      ],
+      "coverage": 0.044,
+      "frequency": 20,
+      "lcb": 0.8197,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_080_3x_toggle_data_can_send_mms",
+      "posterior_mean": 0.9545,
+      "precision": 1.0,
+      "score": 7.487,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.8197,
+      "support": 20,
+      "task_support": 4
+    },
+    {
+      "action_types": [
+        "toggle_roaming",
+        "run_speed_test"
+      ],
+      "coverage": 0.1648,
+      "frequency": 65,
+      "lcb": 0.8931,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_081_2x_toggle_roaming_run_speed_test",
+      "posterior_mean": 0.9552,
+      "precision": 0.9692,
+      "score": 7.4289,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.8931,
+      "support": 65,
+      "task_support": 15
+    },
+    {
+      "action_types": [
+        "toggle_roaming",
+        "can_send_mms"
+      ],
+      "coverage": 0.1868,
+      "frequency": 54,
+      "lcb": 0.9238,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_082_2x_toggle_roaming_can_send_mms",
+      "posterior_mean": 0.9821,
+      "precision": 1.0,
+      "score": 7.4042,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.9238,
+      "support": 54,
+      "task_support": 17
+    },
+    {
+      "action_types": [
+        "reboot_device",
+        "can_send_mms"
+      ],
+      "coverage": 0.2198,
+      "frequency": 49,
+      "lcb": 0.9168,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_083_2x_reboot_device_can_send_mms",
+      "posterior_mean": 0.9804,
+      "precision": 1.0,
+      "score": 7.1728,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.9168,
+      "support": 49,
+      "task_support": 20
+    },
+    {
+      "action_types": [
+        "can_send_mms",
+        "check_app_permissions"
+      ],
+      "coverage": 0.1099,
+      "frequency": 49,
+      "lcb": 0.9168,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_084_2x_can_send_mms_check_app_permissions",
+      "posterior_mean": 0.9804,
+      "precision": 1.0,
+      "score": 7.1728,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.9168,
+      "support": 49,
+      "task_support": 10
+    },
+    {
+      "action_types": [
+        "set_network_mode_preference",
+        "toggle_data",
+        "toggle_roaming",
+        "can_send_mms"
+      ],
+      "coverage": 0.0659,
+      "frequency": 11,
+      "lcb": 0.7177,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_085_4x_set_network_mode_preference_toggle_data",
+      "posterior_mean": 0.9231,
+      "precision": 1.0,
+      "score": 7.1339,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.7177,
+      "support": 11,
+      "task_support": 6
+    },
+    {
+      "action_types": [
+        "resume_line",
+        "check_status_bar",
+        "toggle_airplane_mode"
+      ],
+      "coverage": 0.044,
+      "frequency": 18,
+      "lcb": 0.804,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_086_3x_resume_line_check_status_bar",
+      "posterior_mean": 0.95,
+      "precision": 1.0,
+      "score": 7.1018,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.804,
+      "support": 18,
+      "task_support": 4
+    },
+    {
+      "action_types": [
+        "can_send_mms",
+        "check_network_status",
+        "toggle_roaming"
+      ],
+      "coverage": 0.0549,
+      "frequency": 21,
+      "lcb": 0.7683,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_087_3x_can_send_mms_check_network_status",
+      "posterior_mean": 0.913,
+      "precision": 0.9524,
+      "score": 7.0176,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.7683,
+      "support": 21,
+      "task_support": 5
+    },
+    {
+      "action_types": [
+        "can_send_mms",
+        "check_apn_settings",
+        "check_wifi_calling_status"
+      ],
+      "coverage": 0.0769,
+      "frequency": 29,
+      "lcb": 0.7038,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_088_3x_can_send_mms_check_apn_settings",
+      "posterior_mean": 0.8387,
+      "precision": 0.8621,
+      "score": 6.8793,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.7038,
+      "support": 29,
+      "task_support": 7
+    },
+    {
+      "action_types": [
+        "check_payment_request",
+        "make_payment"
+      ],
+      "coverage": 0.0989,
+      "frequency": 43,
+      "lcb": 0.9063,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_089_2x_check_payment_request_make_payment",
+      "posterior_mean": 0.9778,
+      "precision": 1.0,
+      "score": 6.8594,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.9063,
+      "support": 43,
+      "task_support": 9
+    },
+    {
+      "action_types": [
+        "can_send_mms",
+        "check_wifi_calling_status",
+        "toggle_wifi_calling",
+        "can_send_mms"
+      ],
+      "coverage": 0.0549,
+      "frequency": 13,
+      "lcb": 0.6664,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_090_4x_can_send_mms_check_wifi_calling_status",
+      "posterior_mean": 0.8667,
+      "precision": 0.9231,
+      "score": 6.8372,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.6664,
+      "support": 13,
+      "task_support": 5
+    },
+    {
+      "action_types": [
+        "resume_line",
+        "check_status_bar"
+      ],
+      "coverage": 0.0989,
+      "frequency": 42,
+      "lcb": 0.9043,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_091_2x_resume_line_check_status_bar",
+      "posterior_mean": 0.9773,
+      "precision": 1.0,
+      "score": 6.8027,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.9043,
+      "support": 42,
+      "task_support": 9
+    },
+    {
+      "action_types": [
+        "reboot_device",
+        "can_send_mms",
+        "check_wifi_calling_status"
+      ],
+      "coverage": 0.0989,
+      "frequency": 41,
+      "lcb": 0.6476,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_092_3x_reboot_device_can_send_mms",
+      "posterior_mean": 0.7674,
+      "precision": 0.7805,
+      "score": 6.793,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.6476,
+      "support": 41,
+      "task_support": 9
+    },
+    {
+      "action_types": [
+        "check_status_bar",
+        "check_network_status",
+        "toggle_roaming",
+        "run_speed_test"
+      ],
+      "coverage": 0.022,
+      "frequency": 10,
+      "lcb": 0.6988,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_093_4x_check_status_bar_check_network_status",
+      "posterior_mean": 0.9167,
+      "precision": 1.0,
+      "score": 6.7027,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.6988,
+      "support": 10,
+      "task_support": 2
+    },
+    {
+      "action_types": [
+        "toggle_data_saver_mode",
+        "run_speed_test",
+        "check_network_status",
+        "toggle_roaming"
+      ],
+      "coverage": 0.022,
+      "frequency": 10,
+      "lcb": 0.6988,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_094_4x_toggle_data_saver_mode_run_speed_test",
+      "posterior_mean": 0.9167,
+      "precision": 1.0,
+      "score": 6.7027,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.6988,
+      "support": 10,
+      "task_support": 2
+    },
+    {
+      "action_types": [
+        "reseat_sim_card",
+        "check_status_bar",
+        "can_send_mms",
+        "check_apn_settings"
+      ],
+      "coverage": 0.022,
+      "frequency": 10,
+      "lcb": 0.6988,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_095_4x_reseat_sim_card_check_status_bar",
+      "posterior_mean": 0.9167,
+      "precision": 1.0,
+      "score": 6.7027,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.6988,
+      "support": 10,
+      "task_support": 2
+    },
+    {
+      "action_types": [
+        "check_network_status",
+        "check_apn_settings",
+        "reset_apn_settings",
+        "reboot_device"
+      ],
+      "coverage": 0.022,
+      "frequency": 10,
+      "lcb": 0.6988,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_096_4x_check_network_status_check_apn_settings",
+      "posterior_mean": 0.9167,
+      "precision": 1.0,
+      "score": 6.7027,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.6988,
+      "support": 10,
+      "task_support": 2
+    },
+    {
+      "action_types": [
+        "grant_app_permission",
+        "can_send_mms",
+        "check_network_status",
+        "toggle_roaming"
+      ],
+      "coverage": 0.022,
+      "frequency": 10,
+      "lcb": 0.6988,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_097_4x_grant_app_permission_can_send_mms",
+      "posterior_mean": 0.9167,
+      "precision": 1.0,
+      "score": 6.7027,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.6988,
+      "support": 10,
+      "task_support": 2
+    },
+    {
+      "action_types": [
+        "reboot_device",
+        "can_send_mms",
+        "check_wifi_calling_status",
+        "check_app_permissions"
+      ],
+      "coverage": 0.022,
+      "frequency": 10,
+      "lcb": 0.6988,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_098_4x_reboot_device_can_send_mms",
+      "posterior_mean": 0.9167,
+      "precision": 1.0,
+      "score": 6.7027,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.6988,
+      "support": 10,
+      "task_support": 2
+    },
+    {
+      "action_types": [
+        "check_network_status",
+        "set_network_mode_preference",
+        "toggle_data",
+        "toggle_roaming"
+      ],
+      "coverage": 0.022,
+      "frequency": 10,
+      "lcb": 0.6988,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_099_4x_check_network_status_set_network_mode_preference",
+      "posterior_mean": 0.9167,
+      "precision": 1.0,
+      "score": 6.7027,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.6988,
+      "support": 10,
+      "task_support": 2
+    },
+    {
+      "action_types": [
+        "disconnect_vpn",
+        "run_speed_test",
+        "check_network_status",
+        "toggle_roaming"
+      ],
+      "coverage": 0.022,
+      "frequency": 10,
+      "lcb": 0.6988,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_100_4x_disconnect_vpn_run_speed_test",
+      "posterior_mean": 0.9167,
+      "precision": 1.0,
+      "score": 6.7027,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.6988,
+      "support": 10,
+      "task_support": 2
+    },
+    {
+      "action_types": [
+        "check_status_bar",
+        "check_sim_status",
+        "reseat_sim_card",
+        "check_status_bar"
+      ],
+      "coverage": 0.022,
+      "frequency": 10,
+      "lcb": 0.6988,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_101_4x_check_status_bar_check_sim_status",
+      "posterior_mean": 0.9167,
+      "precision": 1.0,
+      "score": 6.7027,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.6988,
+      "support": 10,
+      "task_support": 2
+    },
+    {
+      "action_types": [
+        "can_send_mms",
+        "check_apn_settings",
+        "check_wifi_calling_status",
+        "check_app_permissions"
+      ],
+      "coverage": 0.022,
+      "frequency": 10,
+      "lcb": 0.6988,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_102_4x_can_send_mms_check_apn_settings",
+      "posterior_mean": 0.9167,
+      "precision": 1.0,
+      "score": 6.7027,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.6988,
+      "support": 10,
+      "task_support": 2
+    },
+    {
+      "action_types": [
+        "set_network_mode_preference",
+        "toggle_data",
+        "can_send_mms",
+        "check_apn_settings"
+      ],
+      "coverage": 0.022,
+      "frequency": 10,
+      "lcb": 0.6988,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_103_4x_set_network_mode_preference_toggle_data",
+      "posterior_mean": 0.9167,
+      "precision": 1.0,
+      "score": 6.7027,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.6988,
+      "support": 10,
+      "task_support": 2
+    },
+    {
+      "action_types": [
+        "check_apn_settings",
+        "check_wifi_calling_status"
+      ],
+      "coverage": 0.2527,
+      "frequency": 81,
+      "lcb": 0.7807,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_104_2x_check_apn_settings_check_wifi_calling_status",
+      "posterior_mean": 0.8554,
+      "precision": 0.8642,
+      "score": 6.6558,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.7807,
+      "support": 81,
+      "task_support": 23
+    },
+    {
+      "action_types": [
+        "refuel_data",
+        "run_speed_test"
+      ],
+      "coverage": 0.1538,
+      "frequency": 60,
+      "lcb": 0.8236,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_105_2x_refuel_data_run_speed_test",
+      "posterior_mean": 0.9032,
+      "precision": 0.9167,
+      "score": 6.6305,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.8236,
+      "support": 60,
+      "task_support": 14
+    },
+    {
+      "action_types": [
+        "get_data_usage",
+        "refuel_data"
+      ],
+      "coverage": 0.1868,
+      "frequency": 39,
+      "lcb": 0.8978,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_106_2x_get_data_usage_refuel_data",
+      "posterior_mean": 0.9756,
+      "precision": 1.0,
+      "score": 6.6236,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.8978,
+      "support": 39,
+      "task_support": 17
+    },
+    {
+      "action_types": [
+        "check_sim_status",
+        "reseat_sim_card",
+        "check_status_bar"
+      ],
+      "coverage": 0.1099,
+      "frequency": 39,
+      "lcb": 0.6322,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_107_3x_check_sim_status_reseat_sim_card",
+      "posterior_mean": 0.7561,
+      "precision": 0.7692,
+      "score": 6.5131,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.6322,
+      "support": 39,
+      "task_support": 10
+    },
+    {
+      "action_types": [
+        "set_network_mode_preference",
+        "toggle_data"
+      ],
+      "coverage": 0.0879,
+      "frequency": 37,
+      "lcb": 0.8929,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_108_2x_set_network_mode_preference_toggle_data",
+      "posterior_mean": 0.9744,
+      "precision": 1.0,
+      "score": 6.496,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.8929,
+      "support": 37,
+      "task_support": 8
+    },
+    {
+      "action_types": [
+        "send_payment_request",
+        "check_payment_request",
+        "make_payment"
+      ],
+      "coverage": 0.033,
+      "frequency": 15,
+      "lcb": 0.7744,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_109_3x_send_payment_request_check_payment_request",
+      "posterior_mean": 0.9412,
+      "precision": 1.0,
+      "score": 6.4415,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.7744,
+      "support": 15,
+      "task_support": 3
+    },
+    {
+      "action_types": [
+        "grant_app_permission",
+        "grant_app_permission"
+      ],
+      "coverage": 0.0769,
+      "frequency": 35,
+      "lcb": 0.8875,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_110_2x_grant_app_permission_grant_app_permission",
+      "posterior_mean": 0.973,
+      "precision": 1.0,
+      "score": 6.361,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.8875,
+      "support": 35,
+      "task_support": 7
+    },
+    {
+      "action_types": [
+        "check_status_bar",
+        "check_sim_status",
+        "check_status_bar",
+        "check_network_status"
+      ],
+      "coverage": 0.022,
+      "frequency": 9,
+      "lcb": 0.6772,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_111_4x_check_status_bar_check_sim_status",
+      "posterior_mean": 0.9091,
+      "precision": 1.0,
+      "score": 6.2372,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.6772,
+      "support": 9,
+      "task_support": 2
+    },
+    {
+      "action_types": [
+        "check_status_bar",
+        "can_send_mms",
+        "check_apn_settings",
+        "check_wifi_calling_status"
+      ],
+      "coverage": 0.022,
+      "frequency": 9,
+      "lcb": 0.6772,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_112_4x_check_status_bar_can_send_mms",
+      "posterior_mean": 0.9091,
+      "precision": 1.0,
+      "score": 6.2372,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.6772,
+      "support": 9,
+      "task_support": 2
+    },
+    {
+      "action_types": [
+        "reseat_sim_card",
+        "set_network_mode_preference",
+        "toggle_data"
+      ],
+      "coverage": 0.033,
+      "frequency": 14,
+      "lcb": 0.7625,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_113_3x_reseat_sim_card_set_network_mode_preference",
+      "posterior_mean": 0.9375,
+      "precision": 1.0,
+      "score": 6.1946,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.7625,
+      "support": 14,
+      "task_support": 3
+    },
+    {
+      "action_types": [
+        "check_status_bar",
+        "check_network_status",
+        "run_speed_test"
+      ],
+      "coverage": 0.033,
+      "frequency": 14,
+      "lcb": 0.7625,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_114_3x_check_status_bar_check_network_status",
+      "posterior_mean": 0.9375,
+      "precision": 1.0,
+      "score": 6.1946,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.7625,
+      "support": 14,
+      "task_support": 3
+    },
+    {
+      "action_types": [
+        "check_network_status",
+        "check_apn_settings"
+      ],
+      "coverage": 0.1209,
+      "frequency": 44,
+      "lcb": 0.8198,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_115_2x_check_network_status_check_apn_settings",
+      "posterior_mean": 0.913,
+      "precision": 0.9318,
+      "score": 6.1285,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.8198,
+      "support": 44,
+      "task_support": 11
+    },
+    {
+      "action_types": [
+        "toggle_data_saver_mode",
+        "run_speed_test"
+      ],
+      "coverage": 0.0769,
+      "frequency": 31,
+      "lcb": 0.875,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_116_2x_toggle_data_saver_mode_run_speed_test",
+      "posterior_mean": 0.9697,
+      "precision": 1.0,
+      "score": 6.065,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.875,
+      "support": 31,
+      "task_support": 7
+    },
+    {
+      "action_types": [
+        "check_network_status",
+        "reseat_sim_card"
+      ],
+      "coverage": 0.1209,
+      "frequency": 42,
+      "lcb": 0.8122,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_117_2x_check_network_status_reseat_sim_card",
+      "posterior_mean": 0.9091,
+      "precision": 0.9286,
+      "score": 5.9926,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.8122,
+      "support": 42,
+      "task_support": 11
+    },
+    {
+      "action_types": [
+        "reset_apn_settings",
+        "reboot_device",
+        "can_send_mms"
+      ],
+      "coverage": 0.0989,
+      "frequency": 13,
+      "lcb": 0.7492,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_118_3x_reset_apn_settings_reboot_device",
+      "posterior_mean": 0.9333,
+      "precision": 1.0,
+      "score": 5.9318,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.7492,
+      "support": 13,
+      "task_support": 9
+    },
+    {
+      "action_types": [
+        "check_network_status",
+        "toggle_roaming",
+        "can_send_mms"
+      ],
+      "coverage": 0.044,
+      "frequency": 13,
+      "lcb": 0.7492,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_119_3x_check_network_status_toggle_roaming",
+      "posterior_mean": 0.9333,
+      "precision": 1.0,
+      "score": 5.9318,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.7492,
+      "support": 13,
+      "task_support": 4
+    },
+    {
+      "action_types": [
+        "get_details_by_id",
+        "resume_line"
+      ],
+      "coverage": 0.0989,
+      "frequency": 28,
+      "lcb": 0.8636,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_120_2x_get_details_by_id_resume_line",
+      "posterior_mean": 0.9667,
+      "precision": 1.0,
+      "score": 5.8159,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.8636,
+      "support": 28,
+      "task_support": 9
+    },
+    {
+      "action_types": [
+        "toggle_data",
+        "toggle_roaming"
+      ],
+      "coverage": 0.0989,
+      "frequency": 35,
+      "lcb": 0.8136,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_121_2x_toggle_data_toggle_roaming",
+      "posterior_mean": 0.9189,
+      "precision": 0.9429,
+      "score": 5.7381,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.8136,
+      "support": 35,
+      "task_support": 9
+    },
+    {
+      "action_types": [
+        "get_details_by_id",
+        "check_status_bar",
+        "toggle_airplane_mode",
+        "check_sim_status"
+      ],
+      "coverage": 0.022,
+      "frequency": 8,
+      "lcb": 0.6523,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_122_4x_get_details_by_id_check_status_bar",
+      "posterior_mean": 0.9,
+      "precision": 1.0,
+      "score": 5.7326,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.6523,
+      "support": 8,
+      "task_support": 2
+    },
+    {
+      "action_types": [
+        "send_payment_request",
+        "check_payment_request",
+        "make_payment",
+        "get_details_by_id"
+      ],
+      "coverage": 0.033,
+      "frequency": 8,
+      "lcb": 0.6523,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_123_4x_send_payment_request_check_payment_request",
+      "posterior_mean": 0.9,
+      "precision": 1.0,
+      "score": 5.7326,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.6523,
+      "support": 8,
+      "task_support": 3
+    },
+    {
+      "action_types": [
+        "check_status_bar",
+        "check_network_status",
+        "check_apn_settings",
+        "reset_apn_settings"
+      ],
+      "coverage": 0.022,
+      "frequency": 8,
+      "lcb": 0.6523,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_124_4x_check_status_bar_check_network_status",
+      "posterior_mean": 0.9,
+      "precision": 1.0,
+      "score": 5.7326,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.6523,
+      "support": 8,
+      "task_support": 2
+    },
+    {
+      "action_types": [
+        "reseat_sim_card",
+        "check_network_status",
+        "set_network_mode_preference",
+        "toggle_data"
+      ],
+      "coverage": 0.022,
+      "frequency": 8,
+      "lcb": 0.6523,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_125_4x_reseat_sim_card_check_network_status",
+      "posterior_mean": 0.9,
+      "precision": 1.0,
+      "score": 5.7326,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.6523,
+      "support": 8,
+      "task_support": 2
+    },
+    {
+      "action_types": [
+        "make_payment",
+        "get_details_by_id"
+      ],
+      "coverage": 0.0989,
+      "frequency": 27,
+      "lcb": 0.8593,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_126_2x_make_payment_get_details_by_id",
+      "posterior_mean": 0.9655,
+      "precision": 1.0,
+      "score": 5.7267,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.8593,
+      "support": 27,
+      "task_support": 9
+    },
+    {
+      "action_types": [
+        "toggle_wifi_calling",
+        "can_send_mms"
+      ],
+      "coverage": 0.1429,
+      "frequency": 30,
+      "lcb": 0.8277,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_127_2x_toggle_wifi_calling_can_send_mms",
+      "posterior_mean": 0.9375,
+      "precision": 0.9667,
+      "score": 5.6302,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.8277,
+      "support": 30,
+      "task_support": 13
+    },
+    {
+      "action_types": [
+        "disconnect_vpn",
+        "run_speed_test"
+      ],
+      "coverage": 0.0659,
+      "frequency": 24,
+      "lcb": 0.8447,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_128_2x_disconnect_vpn_run_speed_test",
+      "posterior_mean": 0.9615,
+      "precision": 1.0,
+      "score": 5.4379,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.8447,
+      "support": 24,
+      "task_support": 6
+    },
+    {
+      "action_types": [
+        "check_status_bar",
+        "check_network_status"
+      ],
+      "coverage": 0.6154,
+      "frequency": 162,
+      "lcb": 0.583,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_129_2x_check_status_bar_check_network_status",
+      "posterior_mean": 0.6463,
+      "precision": 0.6481,
+      "score": 5.4376,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.583,
+      "support": 162,
+      "task_support": 56
+    },
+    {
+      "action_types": [
+        "set_network_mode_preference",
+        "toggle_data_saver_mode"
+      ],
+      "coverage": 0.0879,
+      "frequency": 38,
+      "lcb": 0.7647,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_130_2x_set_network_mode_preference_toggle_data_saver_mo",
+      "posterior_mean": 0.875,
+      "precision": 0.8947,
+      "score": 5.4373,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.7647,
+      "support": 38,
+      "task_support": 8
+    },
+    {
+      "action_types": [
+        "set_network_mode_preference",
+        "disconnect_vpn",
+        "run_speed_test"
+      ],
+      "coverage": 0.033,
+      "frequency": 11,
+      "lcb": 0.7177,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_131_3x_set_network_mode_preference_disconnect_vpn",
+      "posterior_mean": 0.9231,
+      "precision": 1.0,
+      "score": 5.3504,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.7177,
+      "support": 11,
+      "task_support": 3
+    },
+    {
+      "action_types": [
+        "check_sim_status",
+        "transfer_to_human_agents"
+      ],
+      "coverage": 0.0549,
+      "frequency": 23,
+      "lcb": 0.8391,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_132_2x_check_sim_status_transfer_to_human_agents",
+      "posterior_mean": 0.96,
+      "precision": 1.0,
+      "score": 5.3335,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.8391,
+      "support": 23,
+      "task_support": 5
+    },
+    {
+      "action_types": [
+        "run_speed_test",
+        "check_network_status"
+      ],
+      "coverage": 0.0879,
+      "frequency": 23,
+      "lcb": 0.8391,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_133_2x_run_speed_test_check_network_status",
+      "posterior_mean": 0.96,
+      "precision": 1.0,
+      "score": 5.3335,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.8391,
+      "support": 23,
+      "task_support": 8
+    },
+    {
+      "action_types": [
+        "check_network_status",
+        "reseat_sim_card",
+        "check_network_status",
+        "set_network_mode_preference"
+      ],
+      "coverage": 0.022,
+      "frequency": 7,
+      "lcb": 0.6232,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_134_4x_check_network_status_reseat_sim_card",
+      "posterior_mean": 0.8889,
+      "precision": 1.0,
+      "score": 5.1834,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.6232,
+      "support": 7,
+      "task_support": 2
+    },
+    {
+      "action_types": [
+        "get_details_by_id",
+        "check_status_bar",
+        "toggle_airplane_mode"
+      ],
+      "coverage": 0.033,
+      "frequency": 10,
+      "lcb": 0.6988,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_135_3x_get_details_by_id_check_status_bar",
+      "posterior_mean": 0.9167,
+      "precision": 1.0,
+      "score": 5.027,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.6988,
+      "support": 10,
+      "task_support": 3
+    },
+    {
+      "action_types": [
+        "check_status_bar",
+        "can_send_mms",
+        "check_apn_settings"
+      ],
+      "coverage": 0.022,
+      "frequency": 10,
+      "lcb": 0.6988,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_136_3x_check_status_bar_can_send_mms",
+      "posterior_mean": 0.9167,
+      "precision": 1.0,
+      "score": 5.027,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.6988,
+      "support": 10,
+      "task_support": 2
+    },
+    {
+      "action_types": [
+        "set_network_mode_preference",
+        "can_send_mms",
+        "check_apn_settings"
+      ],
+      "coverage": 0.022,
+      "frequency": 10,
+      "lcb": 0.6988,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_137_3x_set_network_mode_preference_can_send_mms",
+      "posterior_mean": 0.9167,
+      "precision": 1.0,
+      "score": 5.027,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.6988,
+      "support": 10,
+      "task_support": 2
+    },
+    {
+      "action_types": [
+        "can_send_mms",
+        "check_wifi_calling_status",
+        "check_app_permissions"
+      ],
+      "coverage": 0.022,
+      "frequency": 10,
+      "lcb": 0.6988,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_138_3x_can_send_mms_check_wifi_calling_status",
+      "posterior_mean": 0.9167,
+      "precision": 1.0,
+      "score": 5.027,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.6988,
+      "support": 10,
+      "task_support": 2
+    },
+    {
+      "action_types": [
+        "set_network_mode_preference",
+        "toggle_data_saver_mode",
+        "disconnect_vpn"
+      ],
+      "coverage": 0.022,
+      "frequency": 10,
+      "lcb": 0.6988,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_139_3x_set_network_mode_preference_toggle_data_saver_mo",
+      "posterior_mean": 0.9167,
+      "precision": 1.0,
+      "score": 5.027,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.6988,
+      "support": 10,
+      "task_support": 2
+    },
+    {
+      "action_types": [
+        "check_status_bar",
+        "check_sim_status",
+        "reseat_sim_card"
+      ],
+      "coverage": 0.022,
+      "frequency": 10,
+      "lcb": 0.6988,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_140_3x_check_status_bar_check_sim_status",
+      "posterior_mean": 0.9167,
+      "precision": 1.0,
+      "score": 5.027,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.6988,
+      "support": 10,
+      "task_support": 2
+    },
+    {
+      "action_types": [
+        "reseat_sim_card",
+        "check_status_bar"
+      ],
+      "coverage": 0.1538,
+      "frequency": 53,
+      "lcb": 0.6389,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_141_2x_reseat_sim_card_check_status_bar",
+      "posterior_mean": 0.7455,
+      "precision": 0.7547,
+      "score": 4.7453,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.6389,
+      "support": 53,
+      "task_support": 14
+    },
+    {
+      "action_types": [
+        "toggle_data_saver_mode",
+        "disconnect_vpn",
+        "run_speed_test"
+      ],
+      "coverage": 0.033,
+      "frequency": 9,
+      "lcb": 0.6772,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_142_3x_toggle_data_saver_mode_disconnect_vpn",
+      "posterior_mean": 0.9091,
+      "precision": 1.0,
+      "score": 4.6779,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.6772,
+      "support": 9,
+      "task_support": 3
+    },
+    {
+      "action_types": [
+        "check_network_status",
+        "set_network_mode_preference",
+        "toggle_data"
+      ],
+      "coverage": 0.022,
+      "frequency": 9,
+      "lcb": 0.6772,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_143_3x_check_network_status_set_network_mode_preference",
+      "posterior_mean": 0.9091,
+      "precision": 1.0,
+      "score": 4.6779,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.6772,
+      "support": 9,
+      "task_support": 2
+    },
+    {
+      "action_types": [
+        "check_status_bar",
+        "check_sim_status",
+        "transfer_to_human_agents"
+      ],
+      "coverage": 0.022,
+      "frequency": 9,
+      "lcb": 0.6772,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_144_3x_check_status_bar_check_sim_status",
+      "posterior_mean": 0.9091,
+      "precision": 1.0,
+      "score": 4.6779,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.6772,
+      "support": 9,
+      "task_support": 2
+    },
+    {
+      "action_types": [
+        "check_apn_settings",
+        "check_wifi_calling_status",
+        "check_app_permissions",
+        "can_send_mms"
+      ],
+      "coverage": 0.022,
+      "frequency": 6,
+      "lcb": 0.5888,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_145_4x_check_apn_settings_check_wifi_calling_status",
+      "posterior_mean": 0.875,
+      "precision": 1.0,
+      "score": 4.5832,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.5888,
+      "support": 6,
+      "task_support": 2
+    },
+    {
+      "action_types": [
+        "toggle_data",
+        "run_speed_test"
+      ],
+      "coverage": 0.0549,
+      "frequency": 20,
+      "lcb": 0.7591,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_146_2x_toggle_data_run_speed_test",
+      "posterior_mean": 0.9091,
+      "precision": 0.95,
+      "score": 4.5482,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.7591,
+      "support": 20,
+      "task_support": 5
+    },
+    {
+      "action_types": [
+        "refuel_data",
+        "check_status_bar"
+      ],
+      "coverage": 0.1319,
+      "frequency": 31,
+      "lcb": 0.6852,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_147_2x_refuel_data_check_status_bar",
+      "posterior_mean": 0.8182,
+      "precision": 0.8387,
+      "score": 4.5165,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.6852,
+      "support": 31,
+      "task_support": 12
+    },
+    {
+      "action_types": [
+        "can_send_mms",
+        "check_wifi_calling_status"
+      ],
+      "coverage": 0.1099,
+      "frequency": 44,
+      "lcb": 0.6215,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_148_2x_can_send_mms_check_wifi_calling_status",
+      "posterior_mean": 0.7391,
+      "precision": 0.75,
+      "score": 4.3832,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.6215,
+      "support": 44,
+      "task_support": 10
+    },
+    {
+      "action_types": [
+        "set_network_mode_preference",
+        "toggle_data",
+        "can_send_mms"
+      ],
+      "coverage": 0.022,
+      "frequency": 8,
+      "lcb": 0.6523,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_149_3x_set_network_mode_preference_toggle_data",
+      "posterior_mean": 0.9,
+      "precision": 1.0,
+      "score": 4.2995,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.6523,
+      "support": 8,
+      "task_support": 2
+    },
+    {
+      "action_types": [
+        "toggle_data",
+        "toggle_roaming",
+        "toggle_roaming"
+      ],
+      "coverage": 0.022,
+      "frequency": 8,
+      "lcb": 0.6523,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_150_3x_toggle_data_toggle_roaming",
+      "posterior_mean": 0.9,
+      "precision": 1.0,
+      "score": 4.2995,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.6523,
+      "support": 8,
+      "task_support": 2
+    },
+    {
+      "action_types": [
+        "get_data_usage",
+        "refuel_data",
+        "can_send_mms"
+      ],
+      "coverage": 0.044,
+      "frequency": 12,
+      "lcb": 0.5679,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_151_3x_get_data_usage_refuel_data",
+      "posterior_mean": 0.7857,
+      "precision": 0.8333,
+      "score": 4.0855,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.5679,
+      "support": 12,
+      "task_support": 4
+    },
+    {
+      "action_types": [
+        "check_status_bar",
+        "check_network_status",
+        "toggle_data",
+        "run_speed_test"
+      ],
+      "coverage": 0.011,
+      "frequency": 5,
+      "lcb": 0.5477,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_152_4x_check_status_bar_check_network_status",
+      "posterior_mean": 0.8571,
+      "precision": 1.0,
+      "score": 3.9253,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.5477,
+      "support": 5,
+      "task_support": 1
+    },
+    {
+      "action_types": [
+        "check_status_bar",
+        "check_network_status",
+        "set_network_mode_preference",
+        "toggle_roaming"
+      ],
+      "coverage": 0.011,
+      "frequency": 5,
+      "lcb": 0.5477,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_153_4x_check_status_bar_check_network_status",
+      "posterior_mean": 0.8571,
+      "precision": 1.0,
+      "score": 3.9253,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.5477,
+      "support": 5,
+      "task_support": 1
+    },
+    {
+      "action_types": [
+        "check_network_status",
+        "set_network_mode_preference",
+        "toggle_roaming",
+        "run_speed_test"
+      ],
+      "coverage": 0.011,
+      "frequency": 5,
+      "lcb": 0.5477,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_154_4x_check_network_status_set_network_mode_preference",
+      "posterior_mean": 0.8571,
+      "precision": 1.0,
+      "score": 3.9253,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.5477,
+      "support": 5,
+      "task_support": 1
+    },
+    {
+      "action_types": [
+        "check_status_bar",
+        "toggle_airplane_mode",
+        "toggle_data",
+        "set_network_mode_preference"
+      ],
+      "coverage": 0.022,
+      "frequency": 5,
+      "lcb": 0.5477,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_155_4x_check_status_bar_toggle_airplane_mode",
+      "posterior_mean": 0.8571,
+      "precision": 1.0,
+      "score": 3.9253,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.5477,
+      "support": 5,
+      "task_support": 2
+    },
+    {
+      "action_types": [
+        "get_data_usage",
+        "refuel_data",
+        "check_status_bar",
+        "toggle_airplane_mode"
+      ],
+      "coverage": 0.011,
+      "frequency": 5,
+      "lcb": 0.5477,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_156_4x_get_data_usage_refuel_data",
+      "posterior_mean": 0.8571,
+      "precision": 1.0,
+      "score": 3.9253,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.5477,
+      "support": 5,
+      "task_support": 1
+    },
+    {
+      "action_types": [
+        "toggle_airplane_mode",
+        "toggle_data",
+        "set_network_mode_preference",
+        "toggle_data_saver_mode"
+      ],
+      "coverage": 0.011,
+      "frequency": 5,
+      "lcb": 0.5477,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_157_4x_toggle_airplane_mode_toggle_data",
+      "posterior_mean": 0.8571,
+      "precision": 1.0,
+      "score": 3.9253,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.5477,
+      "support": 5,
+      "task_support": 1
+    },
+    {
+      "action_types": [
+        "check_sim_status",
+        "reseat_sim_card",
+        "check_sim_status",
+        "transfer_to_human_agents"
+      ],
+      "coverage": 0.011,
+      "frequency": 5,
+      "lcb": 0.5477,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_158_4x_check_sim_status_reseat_sim_card",
+      "posterior_mean": 0.8571,
+      "precision": 1.0,
+      "score": 3.9253,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.5477,
+      "support": 5,
+      "task_support": 1
+    },
+    {
+      "action_types": [
+        "check_status_bar",
+        "check_network_status",
+        "reboot_device",
+        "check_status_bar"
+      ],
+      "coverage": 0.011,
+      "frequency": 5,
+      "lcb": 0.5477,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_159_4x_check_status_bar_check_network_status",
+      "posterior_mean": 0.8571,
+      "precision": 1.0,
+      "score": 3.9253,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.5477,
+      "support": 5,
+      "task_support": 1
+    },
+    {
+      "action_types": [
+        "check_status_bar",
+        "toggle_data",
+        "toggle_roaming",
+        "toggle_roaming"
+      ],
+      "coverage": 0.011,
+      "frequency": 5,
+      "lcb": 0.5477,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_160_4x_check_status_bar_toggle_data",
+      "posterior_mean": 0.8571,
+      "precision": 1.0,
+      "score": 3.9253,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.5477,
+      "support": 5,
+      "task_support": 1
+    },
+    {
+      "action_types": [
+        "toggle_roaming",
+        "toggle_roaming",
+        "can_send_mms",
+        "check_apn_settings"
+      ],
+      "coverage": 0.011,
+      "frequency": 5,
+      "lcb": 0.5477,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_161_4x_toggle_roaming_toggle_roaming",
+      "posterior_mean": 0.8571,
+      "precision": 1.0,
+      "score": 3.9253,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.5477,
+      "support": 5,
+      "task_support": 1
+    },
+    {
+      "action_types": [
+        "set_network_mode_preference",
+        "can_send_mms",
+        "check_apn_settings",
+        "reset_apn_settings"
+      ],
+      "coverage": 0.011,
+      "frequency": 5,
+      "lcb": 0.5477,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_162_4x_set_network_mode_preference_can_send_mms",
+      "posterior_mean": 0.8571,
+      "precision": 1.0,
+      "score": 3.9253,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.5477,
+      "support": 5,
+      "task_support": 1
+    },
+    {
+      "action_types": [
+        "can_send_mms",
+        "check_wifi_calling_status",
+        "check_app_permissions",
+        "grant_app_permission"
+      ],
+      "coverage": 0.011,
+      "frequency": 5,
+      "lcb": 0.5477,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_163_4x_can_send_mms_check_wifi_calling_status",
+      "posterior_mean": 0.8571,
+      "precision": 1.0,
+      "score": 3.9253,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.5477,
+      "support": 5,
+      "task_support": 1
+    },
+    {
+      "action_types": [
+        "check_apn_settings",
+        "can_send_mms",
+        "check_wifi_calling_status",
+        "check_app_permissions"
+      ],
+      "coverage": 0.011,
+      "frequency": 5,
+      "lcb": 0.5477,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_164_4x_check_apn_settings_can_send_mms",
+      "posterior_mean": 0.8571,
+      "precision": 1.0,
+      "score": 3.9253,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.5477,
+      "support": 5,
+      "task_support": 1
+    },
+    {
+      "action_types": [
+        "check_network_status",
+        "get_data_usage",
+        "refuel_data",
+        "can_send_mms"
+      ],
+      "coverage": 0.011,
+      "frequency": 5,
+      "lcb": 0.5477,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_165_4x_check_network_status_get_data_usage",
+      "posterior_mean": 0.8571,
+      "precision": 1.0,
+      "score": 3.9253,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.5477,
+      "support": 5,
+      "task_support": 1
+    },
+    {
+      "action_types": [
+        "check_network_status",
+        "check_sim_status",
+        "check_apn_settings",
+        "reset_apn_settings"
+      ],
+      "coverage": 0.011,
+      "frequency": 5,
+      "lcb": 0.5477,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_166_4x_check_network_status_check_sim_status",
+      "posterior_mean": 0.8571,
+      "precision": 1.0,
+      "score": 3.9253,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.5477,
+      "support": 5,
+      "task_support": 1
+    },
+    {
+      "action_types": [
+        "check_network_status",
+        "check_apn_settings",
+        "check_wifi_calling_status",
+        "toggle_wifi_calling"
+      ],
+      "coverage": 0.011,
+      "frequency": 5,
+      "lcb": 0.5477,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_167_4x_check_network_status_check_apn_settings",
+      "posterior_mean": 0.8571,
+      "precision": 1.0,
+      "score": 3.9253,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.5477,
+      "support": 5,
+      "task_support": 1
+    },
+    {
+      "action_types": [
+        "check_status_bar",
+        "toggle_airplane_mode",
+        "toggle_data",
+        "run_speed_test"
+      ],
+      "coverage": 0.011,
+      "frequency": 5,
+      "lcb": 0.5477,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_168_4x_check_status_bar_toggle_airplane_mode",
+      "posterior_mean": 0.8571,
+      "precision": 1.0,
+      "score": 3.9253,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.5477,
+      "support": 5,
+      "task_support": 1
+    },
+    {
+      "action_types": [
+        "toggle_data",
+        "check_network_status",
+        "toggle_roaming",
+        "run_speed_test"
+      ],
+      "coverage": 0.011,
+      "frequency": 5,
+      "lcb": 0.5477,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_169_4x_toggle_data_check_network_status",
+      "posterior_mean": 0.8571,
+      "precision": 1.0,
+      "score": 3.9253,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.5477,
+      "support": 5,
+      "task_support": 1
+    },
+    {
+      "action_types": [
+        "set_network_mode_preference",
+        "run_speed_test",
+        "check_network_status",
+        "toggle_roaming"
+      ],
+      "coverage": 0.011,
+      "frequency": 5,
+      "lcb": 0.5477,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_170_4x_set_network_mode_preference_run_speed_test",
+      "posterior_mean": 0.8571,
+      "precision": 1.0,
+      "score": 3.9253,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.5477,
+      "support": 5,
+      "task_support": 1
+    },
+    {
+      "action_types": [
+        "set_network_mode_preference",
+        "toggle_data_saver_mode",
+        "disconnect_vpn",
+        "run_speed_test"
+      ],
+      "coverage": 0.022,
+      "frequency": 5,
+      "lcb": 0.5477,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_171_4x_set_network_mode_preference_toggle_data_saver_mo",
+      "posterior_mean": 0.8571,
+      "precision": 1.0,
+      "score": 3.9253,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.5477,
+      "support": 5,
+      "task_support": 2
+    },
+    {
+      "action_types": [
+        "check_app_permissions",
+        "can_send_mms",
+        "check_network_status",
+        "toggle_roaming"
+      ],
+      "coverage": 0.011,
+      "frequency": 5,
+      "lcb": 0.5477,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_172_4x_check_app_permissions_can_send_mms",
+      "posterior_mean": 0.8571,
+      "precision": 1.0,
+      "score": 3.9253,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.5477,
+      "support": 5,
+      "task_support": 1
+    },
+    {
+      "action_types": [
+        "check_status_bar",
+        "check_network_status",
+        "can_send_mms",
+        "check_apn_settings"
+      ],
+      "coverage": 0.011,
+      "frequency": 5,
+      "lcb": 0.5477,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_173_4x_check_status_bar_check_network_status",
+      "posterior_mean": 0.8571,
+      "precision": 1.0,
+      "score": 3.9253,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.5477,
+      "support": 5,
+      "task_support": 1
+    },
+    {
+      "action_types": [
+        "check_sim_status",
+        "reseat_sim_card",
+        "check_network_mode_preference",
+        "set_network_mode_preference"
+      ],
+      "coverage": 0.011,
+      "frequency": 5,
+      "lcb": 0.5477,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_174_4x_check_sim_status_reseat_sim_card",
+      "posterior_mean": 0.8571,
+      "precision": 1.0,
+      "score": 3.9253,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.5477,
+      "support": 5,
+      "task_support": 1
+    },
+    {
+      "action_types": [
+        "set_network_mode_preference",
+        "check_apn_settings",
+        "check_wifi_calling_status",
+        "toggle_wifi_calling"
+      ],
+      "coverage": 0.011,
+      "frequency": 5,
+      "lcb": 0.5477,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_175_4x_set_network_mode_preference_check_apn_settings",
+      "posterior_mean": 0.8571,
+      "precision": 1.0,
+      "score": 3.9253,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.5477,
+      "support": 5,
+      "task_support": 1
+    },
+    {
+      "action_types": [
+        "toggle_wifi_calling",
+        "check_app_permissions",
+        "grant_app_permission",
+        "grant_app_permission"
+      ],
+      "coverage": 0.011,
+      "frequency": 5,
+      "lcb": 0.5477,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_176_4x_toggle_wifi_calling_check_app_permissions",
+      "posterior_mean": 0.8571,
+      "precision": 1.0,
+      "score": 3.9253,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.5477,
+      "support": 5,
+      "task_support": 1
+    },
+    {
+      "action_types": [
+        "check_vpn_status",
+        "run_speed_test",
+        "check_network_status",
+        "get_data_usage"
+      ],
+      "coverage": 0.011,
+      "frequency": 5,
+      "lcb": 0.5477,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_177_4x_check_vpn_status_run_speed_test",
+      "posterior_mean": 0.8571,
+      "precision": 1.0,
+      "score": 3.9253,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.5477,
+      "support": 5,
+      "task_support": 1
+    },
+    {
+      "action_types": [
+        "check_status_bar",
+        "set_network_mode_preference",
+        "toggle_data_saver_mode",
+        "run_speed_test"
+      ],
+      "coverage": 0.011,
+      "frequency": 5,
+      "lcb": 0.5477,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_178_4x_check_status_bar_set_network_mode_preference",
+      "posterior_mean": 0.8571,
+      "precision": 1.0,
+      "score": 3.9253,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.5477,
+      "support": 5,
+      "task_support": 1
+    },
+    {
+      "action_types": [
+        "check_data_restriction_status",
+        "check_vpn_status",
+        "reset_apn_settings",
+        "reboot_device"
+      ],
+      "coverage": 0.011,
+      "frequency": 5,
+      "lcb": 0.5477,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_179_4x_check_data_restriction_status_check_vpn_status",
+      "posterior_mean": 0.8571,
+      "precision": 1.0,
+      "score": 3.9253,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.5477,
+      "support": 5,
+      "task_support": 1
+    },
+    {
+      "action_types": [
+        "set_network_mode_preference",
+        "can_send_mms",
+        "check_apn_settings",
+        "check_wifi_calling_status"
+      ],
+      "coverage": 0.011,
+      "frequency": 5,
+      "lcb": 0.5477,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_180_4x_set_network_mode_preference_can_send_mms",
+      "posterior_mean": 0.8571,
+      "precision": 1.0,
+      "score": 3.9253,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.5477,
+      "support": 5,
+      "task_support": 1
+    },
+    {
+      "action_types": [
+        "check_status_bar",
+        "toggle_data",
+        "can_send_mms",
+        "check_apn_settings"
+      ],
+      "coverage": 0.011,
+      "frequency": 5,
+      "lcb": 0.5477,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_181_4x_check_status_bar_toggle_data",
+      "posterior_mean": 0.8571,
+      "precision": 1.0,
+      "score": 3.9253,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.5477,
+      "support": 5,
+      "task_support": 1
+    },
+    {
+      "action_types": [
+        "can_send_mms",
+        "check_apn_settings",
+        "check_network_status",
+        "check_wifi_calling_status"
+      ],
+      "coverage": 0.011,
+      "frequency": 5,
+      "lcb": 0.5477,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_182_4x_can_send_mms_check_apn_settings",
+      "posterior_mean": 0.8571,
+      "precision": 1.0,
+      "score": 3.9253,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.5477,
+      "support": 5,
+      "task_support": 1
+    },
+    {
+      "action_types": [
+        "check_apn_settings",
+        "check_network_status",
+        "check_wifi_calling_status",
+        "toggle_wifi_calling"
+      ],
+      "coverage": 0.011,
+      "frequency": 5,
+      "lcb": 0.5477,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_183_4x_check_apn_settings_check_network_status",
+      "posterior_mean": 0.8571,
+      "precision": 1.0,
+      "score": 3.9253,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.5477,
+      "support": 5,
+      "task_support": 1
+    },
+    {
+      "action_types": [
+        "check_network_status",
+        "toggle_data",
+        "can_send_mms",
+        "check_apn_settings"
+      ],
+      "coverage": 0.011,
+      "frequency": 5,
+      "lcb": 0.5477,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_184_4x_check_network_status_toggle_data",
+      "posterior_mean": 0.8571,
+      "precision": 1.0,
+      "score": 3.9253,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.5477,
+      "support": 5,
+      "task_support": 1
+    },
+    {
+      "action_types": [
+        "set_network_mode_preference",
+        "toggle_roaming",
+        "can_send_mms",
+        "check_apn_settings"
+      ],
+      "coverage": 0.011,
+      "frequency": 5,
+      "lcb": 0.5477,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_185_4x_set_network_mode_preference_toggle_roaming",
+      "posterior_mean": 0.8571,
+      "precision": 1.0,
+      "score": 3.9253,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.5477,
+      "support": 5,
+      "task_support": 1
+    },
+    {
+      "action_types": [
+        "set_network_mode_preference",
+        "check_apn_settings",
+        "reset_apn_settings",
+        "reboot_device"
+      ],
+      "coverage": 0.011,
+      "frequency": 5,
+      "lcb": 0.5477,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_186_4x_set_network_mode_preference_check_apn_settings",
+      "posterior_mean": 0.8571,
+      "precision": 1.0,
+      "score": 3.9253,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.5477,
+      "support": 5,
+      "task_support": 1
+    },
+    {
+      "action_types": [
+        "can_send_mms",
+        "get_data_usage",
+        "refuel_data",
+        "can_send_mms"
+      ],
+      "coverage": 0.011,
+      "frequency": 5,
+      "lcb": 0.5477,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_187_4x_can_send_mms_get_data_usage",
+      "posterior_mean": 0.8571,
+      "precision": 1.0,
+      "score": 3.9253,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.5477,
+      "support": 5,
+      "task_support": 1
+    },
+    {
+      "action_types": [
+        "check_network_status",
+        "set_network_mode_preference",
+        "toggle_roaming"
+      ],
+      "coverage": 0.022,
+      "frequency": 7,
+      "lcb": 0.6232,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_188_3x_check_network_status_set_network_mode_preference",
+      "posterior_mean": 0.8889,
+      "precision": 1.0,
+      "score": 3.8875,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.6232,
+      "support": 7,
+      "task_support": 2
+    },
+    {
+      "action_types": [
+        "toggle_airplane_mode",
+        "toggle_data",
+        "set_network_mode_preference"
+      ],
+      "coverage": 0.022,
+      "frequency": 7,
+      "lcb": 0.6232,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_189_3x_toggle_airplane_mode_toggle_data",
+      "posterior_mean": 0.8889,
+      "precision": 1.0,
+      "score": 3.8875,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.6232,
+      "support": 7,
+      "task_support": 2
+    },
+    {
+      "action_types": [
+        "check_network_status",
+        "check_apn_settings",
+        "reset_apn_settings"
+      ],
+      "coverage": 0.022,
+      "frequency": 7,
+      "lcb": 0.6232,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_190_3x_check_network_status_check_apn_settings",
+      "posterior_mean": 0.8889,
+      "precision": 1.0,
+      "score": 3.8875,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.6232,
+      "support": 7,
+      "task_support": 2
+    },
+    {
+      "action_types": [
+        "disconnect_vpn",
+        "run_speed_test",
+        "check_network_status"
+      ],
+      "coverage": 0.022,
+      "frequency": 7,
+      "lcb": 0.6232,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_191_3x_disconnect_vpn_run_speed_test",
+      "posterior_mean": 0.8889,
+      "precision": 1.0,
+      "score": 3.8875,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.6232,
+      "support": 7,
+      "task_support": 2
+    },
+    {
+      "action_types": [
+        "check_status_bar",
+        "check_network_status",
+        "set_network_mode_preference"
+      ],
+      "coverage": 0.044,
+      "frequency": 9,
+      "lcb": 0.5728,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_192_3x_check_status_bar_check_network_status",
+      "posterior_mean": 0.8182,
+      "precision": 0.8889,
+      "score": 3.7759,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.5728,
+      "support": 9,
+      "task_support": 4
+    },
+    {
+      "action_types": [
+        "set_network_mode_preference",
+        "run_speed_test"
+      ],
+      "coverage": 0.0769,
+      "frequency": 22,
+      "lcb": 0.6295,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_193_2x_set_network_mode_preference_run_speed_test",
+      "posterior_mean": 0.7917,
+      "precision": 0.8182,
+      "score": 3.7071,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.6295,
+      "support": 22,
+      "task_support": 7
+    },
+    {
+      "action_types": [
+        "toggle_data_saver_mode",
+        "disconnect_vpn"
+      ],
+      "coverage": 0.044,
+      "frequency": 17,
+      "lcb": 0.6638,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_194_2x_toggle_data_saver_mode_disconnect_vpn",
+      "posterior_mean": 0.8421,
+      "precision": 0.8824,
+      "score": 3.681,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.6638,
+      "support": 17,
+      "task_support": 4
+    },
+    {
+      "action_types": [
+        "check_network_status",
+        "set_network_mode_preference"
+      ],
+      "coverage": 0.1099,
+      "frequency": 24,
+      "lcb": 0.612,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_195_2x_check_network_status_set_network_mode_preference",
+      "posterior_mean": 0.7692,
+      "precision": 0.7917,
+      "score": 3.6669,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.612,
+      "support": 24,
+      "task_support": 10
+    },
+    {
+      "action_types": [
+        "check_app_permissions",
+        "can_send_mms"
+      ],
+      "coverage": 0.044,
+      "frequency": 14,
+      "lcb": 0.6838,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_196_2x_check_app_permissions_can_send_mms",
+      "posterior_mean": 0.875,
+      "precision": 0.9286,
+      "score": 3.609,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.6838,
+      "support": 14,
+      "task_support": 4
+    },
+    {
+      "action_types": [
+        "toggle_data",
+        "can_send_mms"
+      ],
+      "coverage": 0.044,
+      "frequency": 11,
+      "lcb": 0.7177,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_197_2x_toggle_data_can_send_mms",
+      "posterior_mean": 0.9231,
+      "precision": 1.0,
+      "score": 3.5669,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.7177,
+      "support": 11,
+      "task_support": 4
+    },
+    {
+      "action_types": [
+        "toggle_data_saver_mode",
+        "run_speed_test",
+        "check_network_status"
+      ],
+      "coverage": 0.022,
+      "frequency": 6,
+      "lcb": 0.5888,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_198_3x_toggle_data_saver_mode_run_speed_test",
+      "posterior_mean": 0.875,
+      "precision": 1.0,
+      "score": 3.4374,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.5888,
+      "support": 6,
+      "task_support": 2
+    },
+    {
+      "action_types": [
+        "check_status_bar",
+        "check_sim_status",
+        "check_status_bar"
+      ],
+      "coverage": 0.022,
+      "frequency": 6,
+      "lcb": 0.5888,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_199_3x_check_status_bar_check_sim_status",
+      "posterior_mean": 0.875,
+      "precision": 1.0,
+      "score": 3.4374,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.5888,
+      "support": 6,
+      "task_support": 2
+    },
+    {
+      "action_types": [
+        "check_network_status",
+        "reseat_sim_card",
+        "check_network_status"
+      ],
+      "coverage": 0.033,
+      "frequency": 6,
+      "lcb": 0.5888,
+      "pattern_id": "tau2_top5_partial_skeleton_sup3_lcb050_200_3x_check_network_status_reseat_sim_card",
+      "posterior_mean": 0.875,
+      "precision": 1.0,
+      "score": 3.4374,
+      "source": "tau2_top5_s1_labels",
+      "success_rate": 0.5888,
+      "support": 6,
+      "task_support": 3
+    }
+  ]
+}

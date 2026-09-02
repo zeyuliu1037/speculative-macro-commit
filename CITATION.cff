@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: If you use this software, please cite the accompanying paper.
+title: Speculative Macro Commit for Faster Tool-Using Agents
+type: software
+authors:
+  - name: Anonymous
+license: Apache-2.0
+keywords:
+  - LLM agents
+  - speculative execution
+  - tool use
+  - inference latency
+url: https://openreview.net/forum?id=Rzj4sZ6h8H
+preferred-citation:
+  type: conference-paper
+  title: Speculative Macro Commit for Faster Tool-Using Agents
+  authors:
+    - name: Anonymous
+  year: 2026
+  conference:
+    name: IEEE International Workshop on Machine Learning for Signal Processing
+  url: https://openreview.net/forum?id=Rzj4sZ6h8H

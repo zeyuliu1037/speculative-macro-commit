@@ -1,0 +1,12 @@
+name: smc-tau2
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12.13
+  - pip
+  - pip:
+      - git+https://github.com/sierra-research/tau2-bench.git@7483cc60e4957fb2cf834c05a41059a715ee287c
+      - openai==2.34.0
+      - litellm==1.82.6
+      - loguru==0.7.3
+      - pydantic==2.13.3

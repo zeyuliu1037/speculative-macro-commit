@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "benchmark": "tau2_telecom",
+  "purpose": "One-task mechanism smoke that historically fired a frozen-library macro.",
+  "task_ids": [
+    "[mobile_data_issue]data_mode_off[PERSONA:None]"
+  ],
+  "expected_minimum": {
+    "verified_anchors": 1,
+    "macro_hits": 1,
+    "macro_steps_skipped": 2
+  }
+}

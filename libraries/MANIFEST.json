@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "hash_algorithm": "sha256",
+  "role": "Frozen evaluation inputs for camera-ready result reproduction",
+  "regeneration_note": "Mining code reproduces the construction procedure; newly sampled trajectories are not guaranteed to regenerate these byte-identical files.",
+  "libraries": [
+    {
+      "benchmark": "appworld",
+      "path": "appworld_train50.json",
+      "sha256": "226079a242b86c407aafed64fa5cf8153f2cfbfcc703ce0821c1f4dcf3cac8b4",
+      "bytes": 27689,
+      "pattern_count": 90,
+      "construction": "length-2-4 action n-grams; frequency >= 5; task coverage >= 0.10; no LCB"
+    },
+    {
+      "benchmark": "tau2_telecom",
+      "path": "tau2_sup3_lcb050.json",
+      "sha256": "3f0e8b933bd6f1f6a57dfdcaa18883d1946c4c77ed148f16aca017682136e9ba",
+      "bytes": 101735,
+      "pattern_count": 200,
+      "construction": "length-2-4 S1-labeled action skeletons; support >= 3; historical Wilson-fallback LCB >= 0.50; frozen top 200"
+    }
+  ]
+}

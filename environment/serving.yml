@@ -1,0 +1,12 @@
+name: smc-serving
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10.20
+  - pip
+  - pip:
+      - vllm==0.17.1
+      - torch==2.10.0
+      - openai==2.30.0
+      - transformers==4.57.6
+

@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "benchmark": "appworld",
+  "purpose": "One-task mechanism smoke that historically fired a frozen-library macro.",
+  "task_ids": [
+    "042a9fc_1"
+  ],
+  "expected_minimum": {
+    "verified_anchors": 1,
+    "macro_hits": 1,
+    "macro_steps_skipped": 1
+  }
+}

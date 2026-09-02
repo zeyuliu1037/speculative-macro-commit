@@ -1,0 +1,1062 @@
+[
+  {
+    "pattern_id": "spotify_show_song_spotify_show_song",
+    "action_types": [
+      "spotify.show_song",
+      "spotify.show_song"
+    ],
+    "frequency": 539,
+    "coverage": 0.26666666666666666,
+    "success_rate": 0.8645640074211502,
+    "avg_position": 28.474953617810762
+  },
+  {
+    "pattern_id": "spotify_show_song_spotify_show_song_spotify_show_song",
+    "action_types": [
+      "spotify.show_song",
+      "spotify.show_song",
+      "spotify.show_song"
+    ],
+    "frequency": 501,
+    "coverage": 0.25555555555555554,
+    "success_rate": 0.8622754491017964,
+    "avg_position": 27.994011976047904
+  },
+  {
+    "pattern_id": "spotify_show_song_spotify_show_song_spotify_show_song_spotify_show_song",
+    "action_types": [
+      "spotify.show_song",
+      "spotify.show_song",
+      "spotify.show_song",
+      "spotify.show_song"
+    ],
+    "frequency": 464,
+    "coverage": 0.25555555555555554,
+    "success_rate": 0.8577586206896551,
+    "avg_position": 27.512931034482758
+  },
+  {
+    "pattern_id": "venmo_show_transactions_venmo_show_transactions",
+    "action_types": [
+      "venmo.show_transactions",
+      "venmo.show_transactions"
+    ],
+    "frequency": 78,
+    "coverage": 0.14444444444444443,
+    "success_rate": 1.0,
+    "avg_position": 18.012820512820515
+  },
+  {
+    "pattern_id": "show_api_doc_show_profile",
+    "action_types": [
+      "show_api_doc",
+      "show_profile"
+    ],
+    "frequency": 74,
+    "coverage": 0.8111111111111111,
+    "success_rate": 0.9324324324324325,
+    "avg_position": 4.77027027027027
+  },
+  {
+    "pattern_id": "show_account_passwords_show_api_descriptions",
+    "action_types": [
+      "show_account_passwords",
+      "show_api_descriptions"
+    ],
+    "frequency": 62,
+    "coverage": 0.6888888888888889,
+    "success_rate": 0.9516129032258065,
+    "avg_position": 1.532258064516129
+  },
+  {
+    "pattern_id": "venmo_show_transactions_venmo_show_transactions_venmo_show_transactions",
+    "action_types": [
+      "venmo.show_transactions",
+      "venmo.show_transactions",
+      "venmo.show_transactions"
+    ],
+    "frequency": 60,
+    "coverage": 0.12222222222222222,
+    "success_rate": 1.0,
+    "avg_position": 17.966666666666665
+  },
+  {
+    "pattern_id": "spotify_login_show_api_doc",
+    "action_types": [
+      "spotify.login",
+      "show_api_doc"
+    ],
+    "frequency": 55,
+    "coverage": 0.43333333333333335,
+    "success_rate": 0.9090909090909091,
+    "avg_position": 4.654545454545454
+  },
+  {
+    "pattern_id": "show_active_task_show_app_descriptions",
+    "action_types": [
+      "show_active_task",
+      "show_app_descriptions"
+    ],
+    "frequency": 52,
+    "coverage": 0.5777777777777777,
+    "success_rate": 0.9038461538461539,
+    "avg_position": 0.0
+  },
+  {
+    "pattern_id": "venmo_show_transactions_venmo_show_transactions_venmo_show_transactions_venmo_show_transactions",
+    "action_types": [
+      "venmo.show_transactions",
+      "venmo.show_transactions",
+      "venmo.show_transactions",
+      "venmo.show_transactions"
+    ],
+    "frequency": 48,
+    "coverage": 0.1,
+    "success_rate": 1.0,
+    "avg_position": 17.5
+  },
+  {
+    "pattern_id": "show_profile_spotify_login",
+    "action_types": [
+      "show_profile",
+      "spotify.login"
+    ],
+    "frequency": 45,
+    "coverage": 0.5,
+    "success_rate": 0.9333333333333333,
+    "avg_position": 5.2444444444444445
+  },
+  {
+    "pattern_id": "show_api_descriptions_spotify_login",
+    "action_types": [
+      "show_api_descriptions",
+      "spotify.login"
+    ],
+    "frequency": 41,
+    "coverage": 0.45555555555555555,
+    "success_rate": 0.926829268292683,
+    "avg_position": 2.3658536585365852
+  },
+  {
+    "pattern_id": "show_account_passwords_show_api_descriptions_spotify_login",
+    "action_types": [
+      "show_account_passwords",
+      "show_api_descriptions",
+      "spotify.login"
+    ],
+    "frequency": 41,
+    "coverage": 0.45555555555555555,
+    "success_rate": 0.926829268292683,
+    "avg_position": 1.3658536585365855
+  },
+  {
+    "pattern_id": "show_app_descriptions_show_account_passwords",
+    "action_types": [
+      "show_app_descriptions",
+      "show_account_passwords"
+    ],
+    "frequency": 38,
+    "coverage": 0.4222222222222222,
+    "success_rate": 0.9473684210526315,
+    "avg_position": 0.9210526315789473
+  },
+  {
+    "pattern_id": "show_api_doc_show_profile_spotify_login",
+    "action_types": [
+      "show_api_doc",
+      "show_profile",
+      "spotify.login"
+    ],
+    "frequency": 37,
+    "coverage": 0.4111111111111111,
+    "success_rate": 0.9459459459459459,
+    "avg_position": 4.378378378378378
+  },
+  {
+    "pattern_id": "show_app_descriptions_show_account_passwords_show_api_descriptions",
+    "action_types": [
+      "show_app_descriptions",
+      "show_account_passwords",
+      "show_api_descriptions"
+    ],
+    "frequency": 37,
+    "coverage": 0.4111111111111111,
+    "success_rate": 0.9459459459459459,
+    "avg_position": 0.918918918918919
+  },
+  {
+    "pattern_id": "show_active_task_show_app_descriptions_show_account_passwords",
+    "action_types": [
+      "show_active_task",
+      "show_app_descriptions",
+      "show_account_passwords"
+    ],
+    "frequency": 35,
+    "coverage": 0.3888888888888889,
+    "success_rate": 0.9428571428571428,
+    "avg_position": 0.0
+  },
+  {
+    "pattern_id": "show_active_task_show_app_descriptions_show_account_passwords_show_api_descriptions",
+    "action_types": [
+      "show_active_task",
+      "show_app_descriptions",
+      "show_account_passwords",
+      "show_api_descriptions"
+    ],
+    "frequency": 34,
+    "coverage": 0.37777777777777777,
+    "success_rate": 0.9411764705882353,
+    "avg_position": 0.0
+  },
+  {
+    "pattern_id": "spotify_login_show_api_doc_show_profile",
+    "action_types": [
+      "spotify.login",
+      "show_api_doc",
+      "show_profile"
+    ],
+    "frequency": 31,
+    "coverage": 0.34444444444444444,
+    "success_rate": 0.9354838709677419,
+    "avg_position": 3.3548387096774195
+  },
+  {
+    "pattern_id": "spotify_login_show_api_doc_show_profile_spotify_login",
+    "action_types": [
+      "spotify.login",
+      "show_api_doc",
+      "show_profile",
+      "spotify.login"
+    ],
+    "frequency": 31,
+    "coverage": 0.34444444444444444,
+    "success_rate": 0.9354838709677419,
+    "avg_position": 3.3548387096774195
+  },
+  {
+    "pattern_id": "show_api_descriptions_spotify_login_show_api_doc",
+    "action_types": [
+      "show_api_descriptions",
+      "spotify.login",
+      "show_api_doc"
+    ],
+    "frequency": 30,
+    "coverage": 0.3333333333333333,
+    "success_rate": 0.9333333333333333,
+    "avg_position": 2.3333333333333335
+  },
+  {
+    "pattern_id": "show_account_passwords_show_api_descriptions_spotify_login_show_api_doc",
+    "action_types": [
+      "show_account_passwords",
+      "show_api_descriptions",
+      "spotify.login",
+      "show_api_doc"
+    ],
+    "frequency": 30,
+    "coverage": 0.3333333333333333,
+    "success_rate": 0.9333333333333333,
+    "avg_position": 1.3333333333333333
+  },
+  {
+    "pattern_id": "show_api_descriptions_spotify_login_show_api_doc_show_profile",
+    "action_types": [
+      "show_api_descriptions",
+      "spotify.login",
+      "show_api_doc",
+      "show_profile"
+    ],
+    "frequency": 30,
+    "coverage": 0.3333333333333333,
+    "success_rate": 0.9333333333333333,
+    "avg_position": 2.3333333333333335
+  },
+  {
+    "pattern_id": "show_api_descriptions_search_api_docs",
+    "action_types": [
+      "show_api_descriptions",
+      "search_api_docs"
+    ],
+    "frequency": 26,
+    "coverage": 0.26666666666666666,
+    "success_rate": 0.9615384615384616,
+    "avg_position": 14.192307692307692
+  },
+  {
+    "pattern_id": "show_active_task_show_account_passwords",
+    "action_types": [
+      "show_active_task",
+      "show_account_passwords"
+    ],
+    "frequency": 24,
+    "coverage": 0.26666666666666666,
+    "success_rate": 0.9583333333333334,
+    "avg_position": 0.0
+  },
+  {
+    "pattern_id": "show_active_task_show_account_passwords_show_api_descriptions",
+    "action_types": [
+      "show_active_task",
+      "show_account_passwords",
+      "show_api_descriptions"
+    ],
+    "frequency": 24,
+    "coverage": 0.26666666666666666,
+    "success_rate": 0.9583333333333334,
+    "avg_position": 0.0
+  },
+  {
+    "pattern_id": "show_active_task_show_account_passwords_show_api_descriptions_spotify_login",
+    "action_types": [
+      "show_active_task",
+      "show_account_passwords",
+      "show_api_descriptions",
+      "spotify.login"
+    ],
+    "frequency": 24,
+    "coverage": 0.26666666666666666,
+    "success_rate": 0.9583333333333334,
+    "avg_position": 0.0
+  },
+  {
+    "pattern_id": "show_profile_spotify_login_show_api_doc",
+    "action_types": [
+      "show_profile",
+      "spotify.login",
+      "show_api_doc"
+    ],
+    "frequency": 24,
+    "coverage": 0.26666666666666666,
+    "success_rate": 0.875,
+    "avg_position": 5.333333333333333
+  },
+  {
+    "pattern_id": "show_app_descriptions_show_api_descriptions",
+    "action_types": [
+      "show_app_descriptions",
+      "show_api_descriptions"
+    ],
+    "frequency": 24,
+    "coverage": 0.26666666666666666,
+    "success_rate": 0.875,
+    "avg_position": 0.5833333333333334
+  },
+  {
+    "pattern_id": "show_api_descriptions_show_account_passwords",
+    "action_types": [
+      "show_api_descriptions",
+      "show_account_passwords"
+    ],
+    "frequency": 24,
+    "coverage": 0.26666666666666666,
+    "success_rate": 0.875,
+    "avg_position": 1.5833333333333333
+  },
+  {
+    "pattern_id": "show_app_descriptions_show_api_descriptions_show_account_passwords",
+    "action_types": [
+      "show_app_descriptions",
+      "show_api_descriptions",
+      "show_account_passwords"
+    ],
+    "frequency": 24,
+    "coverage": 0.26666666666666666,
+    "success_rate": 0.875,
+    "avg_position": 0.5833333333333334
+  },
+  {
+    "pattern_id": "show_api_doc_show_profile_spotify_login_show_api_doc",
+    "action_types": [
+      "show_api_doc",
+      "show_profile",
+      "spotify.login",
+      "show_api_doc"
+    ],
+    "frequency": 21,
+    "coverage": 0.23333333333333334,
+    "success_rate": 0.9047619047619048,
+    "avg_position": 4.428571428571429
+  },
+  {
+    "pattern_id": "show_api_doc_spotify_show_song",
+    "action_types": [
+      "show_api_doc",
+      "spotify.show_song"
+    ],
+    "frequency": 21,
+    "coverage": 0.2222222222222222,
+    "success_rate": 0.8571428571428571,
+    "avg_position": 13.285714285714286
+  },
+  {
+    "pattern_id": "show_api_doc_spotify_show_song_spotify_show_song",
+    "action_types": [
+      "show_api_doc",
+      "spotify.show_song",
+      "spotify.show_song"
+    ],
+    "frequency": 19,
+    "coverage": 0.2111111111111111,
+    "success_rate": 0.8421052631578947,
+    "avg_position": 13.473684210526315
+  },
+  {
+    "pattern_id": "venmo_login_show_api_doc",
+    "action_types": [
+      "venmo.login",
+      "show_api_doc"
+    ],
+    "frequency": 19,
+    "coverage": 0.13333333333333333,
+    "success_rate": 1.0,
+    "avg_position": 5.473684210526316
+  },
+  {
+    "pattern_id": "show_api_descriptions_show_api_doc",
+    "action_types": [
+      "show_api_descriptions",
+      "show_api_doc"
+    ],
+    "frequency": 18,
+    "coverage": 0.15555555555555556,
+    "success_rate": 0.9444444444444444,
+    "avg_position": 14.666666666666666
+  },
+  {
+    "pattern_id": "show_api_doc_spotify_show_playlist_library",
+    "action_types": [
+      "show_api_doc",
+      "spotify.show_playlist_library"
+    ],
+    "frequency": 18,
+    "coverage": 0.2,
+    "success_rate": 0.7777777777777778,
+    "avg_position": 16.22222222222222
+  },
+  {
+    "pattern_id": "show_api_doc_spotify_show_song_spotify_show_song_spotify_show_song",
+    "action_types": [
+      "show_api_doc",
+      "spotify.show_song",
+      "spotify.show_song",
+      "spotify.show_song"
+    ],
+    "frequency": 18,
+    "coverage": 0.2,
+    "success_rate": 0.8888888888888888,
+    "avg_position": 12.777777777777779
+  },
+  {
+    "pattern_id": "simple_note_login_simple_note_search_notes",
+    "action_types": [
+      "simple_note.login",
+      "simple_note.search_notes"
+    ],
+    "frequency": 17,
+    "coverage": 0.13333333333333333,
+    "success_rate": 0.8235294117647058,
+    "avg_position": 7.470588235294118
+  },
+  {
+    "pattern_id": "show_app_descriptions_show_account_passwords_show_api_descriptions_spotify_login",
+    "action_types": [
+      "show_app_descriptions",
+      "show_account_passwords",
+      "show_api_descriptions",
+      "spotify.login"
+    ],
+    "frequency": 17,
+    "coverage": 0.18888888888888888,
+    "success_rate": 0.8823529411764706,
+    "avg_position": 0.8823529411764706
+  },
+  {
+    "pattern_id": "phone_login_show_api_doc",
+    "action_types": [
+      "phone.login",
+      "show_api_doc"
+    ],
+    "frequency": 17,
+    "coverage": 0.13333333333333333,
+    "success_rate": 1.0,
+    "avg_position": 8.117647058823529
+  },
+  {
+    "pattern_id": "show_api_doc_spotify_show_song_library",
+    "action_types": [
+      "show_api_doc",
+      "spotify.show_song_library"
+    ],
+    "frequency": 16,
+    "coverage": 0.15555555555555556,
+    "success_rate": 0.8125,
+    "avg_position": 7.875
+  },
+  {
+    "pattern_id": "file_system_show_directory_show_api_doc",
+    "action_types": [
+      "file_system.show_directory",
+      "show_api_doc"
+    ],
+    "frequency": 16,
+    "coverage": 0.13333333333333333,
+    "success_rate": 1.0,
+    "avg_position": 10.25
+  },
+  {
+    "pattern_id": "spotify_show_song_library_show_api_doc",
+    "action_types": [
+      "spotify.show_song_library",
+      "show_api_doc"
+    ],
+    "frequency": 15,
+    "coverage": 0.15555555555555556,
+    "success_rate": 0.8,
+    "avg_position": 10.266666666666667
+  },
+  {
+    "pattern_id": "show_api_doc_show_api_doc",
+    "action_types": [
+      "show_api_doc",
+      "show_api_doc"
+    ],
+    "frequency": 15,
+    "coverage": 0.16666666666666666,
+    "success_rate": 0.9333333333333333,
+    "avg_position": 10.533333333333333
+  },
+  {
+    "pattern_id": "search_api_docs_show_api_doc",
+    "action_types": [
+      "search_api_docs",
+      "show_api_doc"
+    ],
+    "frequency": 15,
+    "coverage": 0.13333333333333333,
+    "success_rate": 1.0,
+    "avg_position": 14.4
+  },
+  {
+    "pattern_id": "spotify_login_show_api_doc_spotify_show_song_library",
+    "action_types": [
+      "spotify.login",
+      "show_api_doc",
+      "spotify.show_song_library"
+    ],
+    "frequency": 14,
+    "coverage": 0.15555555555555556,
+    "success_rate": 0.7857142857142857,
+    "avg_position": 6.428571428571429
+  },
+  {
+    "pattern_id": "show_profile_spotify_login_show_api_doc_spotify_show_song_library",
+    "action_types": [
+      "show_profile",
+      "spotify.login",
+      "show_api_doc",
+      "spotify.show_song_library"
+    ],
+    "frequency": 14,
+    "coverage": 0.15555555555555556,
+    "success_rate": 0.7857142857142857,
+    "avg_position": 5.428571428571429
+  },
+  {
+    "pattern_id": "show_active_task_show_app_descriptions_show_api_descriptions",
+    "action_types": [
+      "show_active_task",
+      "show_app_descriptions",
+      "show_api_descriptions"
+    ],
+    "frequency": 14,
+    "coverage": 0.15555555555555556,
+    "success_rate": 0.7857142857142857,
+    "avg_position": 0.0
+  },
+  {
+    "pattern_id": "show_active_task_show_app_descriptions_show_api_descriptions_show_account_passwords",
+    "action_types": [
+      "show_active_task",
+      "show_app_descriptions",
+      "show_api_descriptions",
+      "show_account_passwords"
+    ],
+    "frequency": 14,
+    "coverage": 0.15555555555555556,
+    "success_rate": 0.7857142857142857,
+    "avg_position": 0.0
+  },
+  {
+    "pattern_id": "show_profile_venmo_login",
+    "action_types": [
+      "show_profile",
+      "venmo.login"
+    ],
+    "frequency": 14,
+    "coverage": 0.15555555555555556,
+    "success_rate": 1.0,
+    "avg_position": 5.571428571428571
+  },
+  {
+    "pattern_id": "spotify_show_playlist_library_show_api_doc",
+    "action_types": [
+      "spotify.show_playlist_library",
+      "show_api_doc"
+    ],
+    "frequency": 14,
+    "coverage": 0.14444444444444443,
+    "success_rate": 0.7142857142857143,
+    "avg_position": 12.142857142857142
+  },
+  {
+    "pattern_id": "show_api_doc_spotify_show_liked_albums",
+    "action_types": [
+      "show_api_doc",
+      "spotify.show_liked_albums"
+    ],
+    "frequency": 13,
+    "coverage": 0.12222222222222222,
+    "success_rate": 0.6153846153846154,
+    "avg_position": 20.0
+  },
+  {
+    "pattern_id": "simple_note_search_notes_show_api_doc",
+    "action_types": [
+      "simple_note.search_notes",
+      "show_api_doc"
+    ],
+    "frequency": 13,
+    "coverage": 0.1111111111111111,
+    "success_rate": 0.7692307692307693,
+    "avg_position": 9.692307692307692
+  },
+  {
+    "pattern_id": "show_api_descriptions_venmo_login",
+    "action_types": [
+      "show_api_descriptions",
+      "venmo.login"
+    ],
+    "frequency": 13,
+    "coverage": 0.14444444444444443,
+    "success_rate": 1.0,
+    "avg_position": 2.769230769230769
+  },
+  {
+    "pattern_id": "show_account_passwords_show_api_descriptions_venmo_login",
+    "action_types": [
+      "show_account_passwords",
+      "show_api_descriptions",
+      "venmo.login"
+    ],
+    "frequency": 13,
+    "coverage": 0.14444444444444443,
+    "success_rate": 1.0,
+    "avg_position": 1.7692307692307692
+  },
+  {
+    "pattern_id": "spotify_show_song_library_spotify_show_song_library",
+    "action_types": [
+      "spotify.show_song_library",
+      "spotify.show_song_library"
+    ],
+    "frequency": 12,
+    "coverage": 0.12222222222222222,
+    "success_rate": 0.75,
+    "avg_position": 9.416666666666666
+  },
+  {
+    "pattern_id": "simple_note_login_show_api_doc",
+    "action_types": [
+      "simple_note.login",
+      "show_api_doc"
+    ],
+    "frequency": 12,
+    "coverage": 0.13333333333333333,
+    "success_rate": 0.75,
+    "avg_position": 3.8333333333333335
+  },
+  {
+    "pattern_id": "show_profile_simple_note_login",
+    "action_types": [
+      "show_profile",
+      "simple_note.login"
+    ],
+    "frequency": 12,
+    "coverage": 0.13333333333333333,
+    "success_rate": 0.75,
+    "avg_position": 5.833333333333333
+  },
+  {
+    "pattern_id": "simple_note_login_show_api_doc_show_profile",
+    "action_types": [
+      "simple_note.login",
+      "show_api_doc",
+      "show_profile"
+    ],
+    "frequency": 12,
+    "coverage": 0.13333333333333333,
+    "success_rate": 0.75,
+    "avg_position": 3.8333333333333335
+  },
+  {
+    "pattern_id": "show_api_doc_show_profile_simple_note_login",
+    "action_types": [
+      "show_api_doc",
+      "show_profile",
+      "simple_note.login"
+    ],
+    "frequency": 12,
+    "coverage": 0.13333333333333333,
+    "success_rate": 0.75,
+    "avg_position": 4.833333333333333
+  },
+  {
+    "pattern_id": "show_profile_simple_note_login_simple_note_search_notes",
+    "action_types": [
+      "show_profile",
+      "simple_note.login",
+      "simple_note.search_notes"
+    ],
+    "frequency": 12,
+    "coverage": 0.13333333333333333,
+    "success_rate": 0.75,
+    "avg_position": 5.833333333333333
+  },
+  {
+    "pattern_id": "simple_note_login_show_api_doc_show_profile_simple_note_login",
+    "action_types": [
+      "simple_note.login",
+      "show_api_doc",
+      "show_profile",
+      "simple_note.login"
+    ],
+    "frequency": 12,
+    "coverage": 0.13333333333333333,
+    "success_rate": 0.75,
+    "avg_position": 3.8333333333333335
+  },
+  {
+    "pattern_id": "show_api_doc_show_profile_simple_note_login_simple_note_search_notes",
+    "action_types": [
+      "show_api_doc",
+      "show_profile",
+      "simple_note.login",
+      "simple_note.search_notes"
+    ],
+    "frequency": 12,
+    "coverage": 0.13333333333333333,
+    "success_rate": 0.75,
+    "avg_position": 4.833333333333333
+  },
+  {
+    "pattern_id": "show_app_descriptions_show_account_passwords_show_api_descriptions_venmo_login",
+    "action_types": [
+      "show_app_descriptions",
+      "show_account_passwords",
+      "show_api_descriptions",
+      "venmo.login"
+    ],
+    "frequency": 12,
+    "coverage": 0.13333333333333333,
+    "success_rate": 1.0,
+    "avg_position": 0.9166666666666666
+  },
+  {
+    "pattern_id": "show_api_doc_venmo_show_transactions",
+    "action_types": [
+      "show_api_doc",
+      "venmo.show_transactions"
+    ],
+    "frequency": 12,
+    "coverage": 0.12222222222222222,
+    "success_rate": 1.0,
+    "avg_position": 9.416666666666666
+  },
+  {
+    "pattern_id": "show_api_doc_file_system_show_directory",
+    "action_types": [
+      "show_api_doc",
+      "file_system.show_directory"
+    ],
+    "frequency": 12,
+    "coverage": 0.13333333333333333,
+    "success_rate": 1.0,
+    "avg_position": 9.5
+  },
+  {
+    "pattern_id": "show_profile_venmo_login_show_api_doc",
+    "action_types": [
+      "show_profile",
+      "venmo.login",
+      "show_api_doc"
+    ],
+    "frequency": 11,
+    "coverage": 0.12222222222222222,
+    "success_rate": 1.0,
+    "avg_position": 5.363636363636363
+  },
+  {
+    "pattern_id": "show_api_doc_spotify_show_playlist",
+    "action_types": [
+      "show_api_doc",
+      "spotify.show_playlist"
+    ],
+    "frequency": 11,
+    "coverage": 0.1,
+    "success_rate": 0.6363636363636364,
+    "avg_position": 18.272727272727273
+  },
+  {
+    "pattern_id": "show_api_doc_spotify_show_song_library_spotify_show_song_library",
+    "action_types": [
+      "show_api_doc",
+      "spotify.show_song_library",
+      "spotify.show_song_library"
+    ],
+    "frequency": 10,
+    "coverage": 0.1111111111111111,
+    "success_rate": 0.7,
+    "avg_position": 8.0
+  },
+  {
+    "pattern_id": "show_api_doc_simple_note_search_notes",
+    "action_types": [
+      "show_api_doc",
+      "simple_note.search_notes"
+    ],
+    "frequency": 10,
+    "coverage": 0.1111111111111111,
+    "success_rate": 0.7,
+    "avg_position": 10.0
+  },
+  {
+    "pattern_id": "simple_note_login_simple_note_search_notes_show_api_doc",
+    "action_types": [
+      "simple_note.login",
+      "simple_note.search_notes",
+      "show_api_doc"
+    ],
+    "frequency": 10,
+    "coverage": 0.1111111111111111,
+    "success_rate": 0.7,
+    "avg_position": 8.0
+  },
+  {
+    "pattern_id": "simple_note_search_notes_show_api_doc_simple_note_search_notes",
+    "action_types": [
+      "simple_note.search_notes",
+      "show_api_doc",
+      "simple_note.search_notes"
+    ],
+    "frequency": 10,
+    "coverage": 0.1111111111111111,
+    "success_rate": 0.7,
+    "avg_position": 9.0
+  },
+  {
+    "pattern_id": "simple_note_login_simple_note_search_notes_show_api_doc_simple_note_search_notes",
+    "action_types": [
+      "simple_note.login",
+      "simple_note.search_notes",
+      "show_api_doc",
+      "simple_note.search_notes"
+    ],
+    "frequency": 10,
+    "coverage": 0.1111111111111111,
+    "success_rate": 0.7,
+    "avg_position": 8.0
+  },
+  {
+    "pattern_id": "show_api_doc_spotify_show_playlist_library_show_api_doc",
+    "action_types": [
+      "show_api_doc",
+      "spotify.show_playlist_library",
+      "show_api_doc"
+    ],
+    "frequency": 10,
+    "coverage": 0.1111111111111111,
+    "success_rate": 0.8,
+    "avg_position": 11.2
+  },
+  {
+    "pattern_id": "show_api_doc_spotify_show_liked_songs",
+    "action_types": [
+      "show_api_doc",
+      "spotify.show_liked_songs"
+    ],
+    "frequency": 9,
+    "coverage": 0.1,
+    "success_rate": 1.0,
+    "avg_position": 9.666666666666666
+  },
+  {
+    "pattern_id": "spotify_login_show_api_doc_spotify_show_song_library_spotify_show_song_library",
+    "action_types": [
+      "spotify.login",
+      "show_api_doc",
+      "spotify.show_song_library",
+      "spotify.show_song_library"
+    ],
+    "frequency": 9,
+    "coverage": 0.1,
+    "success_rate": 0.6666666666666666,
+    "avg_position": 6.444444444444445
+  },
+  {
+    "pattern_id": "show_account_passwords_simple_note_login",
+    "action_types": [
+      "show_account_passwords",
+      "simple_note.login"
+    ],
+    "frequency": 9,
+    "coverage": 0.1,
+    "success_rate": 0.6666666666666666,
+    "avg_position": 2.7777777777777777
+  },
+  {
+    "pattern_id": "simple_note_search_notes_simple_note_show_note",
+    "action_types": [
+      "simple_note.search_notes",
+      "simple_note.show_note"
+    ],
+    "frequency": 9,
+    "coverage": 0.1,
+    "success_rate": 0.6666666666666666,
+    "avg_position": 10.222222222222221
+  },
+  {
+    "pattern_id": "show_api_descriptions_show_account_passwords_simple_note_login",
+    "action_types": [
+      "show_api_descriptions",
+      "show_account_passwords",
+      "simple_note.login"
+    ],
+    "frequency": 9,
+    "coverage": 0.1,
+    "success_rate": 0.6666666666666666,
+    "avg_position": 1.7777777777777777
+  },
+  {
+    "pattern_id": "show_account_passwords_simple_note_login_show_api_doc",
+    "action_types": [
+      "show_account_passwords",
+      "simple_note.login",
+      "show_api_doc"
+    ],
+    "frequency": 9,
+    "coverage": 0.1,
+    "success_rate": 0.6666666666666666,
+    "avg_position": 2.7777777777777777
+  },
+  {
+    "pattern_id": "show_app_descriptions_show_api_descriptions_show_account_passwords_simple_note_login",
+    "action_types": [
+      "show_app_descriptions",
+      "show_api_descriptions",
+      "show_account_passwords",
+      "simple_note.login"
+    ],
+    "frequency": 9,
+    "coverage": 0.1,
+    "success_rate": 0.6666666666666666,
+    "avg_position": 0.7777777777777778
+  },
+  {
+    "pattern_id": "show_api_descriptions_show_account_passwords_simple_note_login_show_api_doc",
+    "action_types": [
+      "show_api_descriptions",
+      "show_account_passwords",
+      "simple_note.login",
+      "show_api_doc"
+    ],
+    "frequency": 9,
+    "coverage": 0.1,
+    "success_rate": 0.6666666666666666,
+    "avg_position": 1.7777777777777777
+  },
+  {
+    "pattern_id": "show_account_passwords_simple_note_login_show_api_doc_show_profile",
+    "action_types": [
+      "show_account_passwords",
+      "simple_note.login",
+      "show_api_doc",
+      "show_profile"
+    ],
+    "frequency": 9,
+    "coverage": 0.1,
+    "success_rate": 0.6666666666666666,
+    "avg_position": 2.7777777777777777
+  },
+  {
+    "pattern_id": "show_account_passwords_file_system_login",
+    "action_types": [
+      "show_account_passwords",
+      "file_system.login"
+    ],
+    "frequency": 9,
+    "coverage": 0.1,
+    "success_rate": 1.0,
+    "avg_position": 2.4444444444444446
+  },
+  {
+    "pattern_id": "show_profile_file_system_login",
+    "action_types": [
+      "show_profile",
+      "file_system.login"
+    ],
+    "frequency": 9,
+    "coverage": 0.1,
+    "success_rate": 1.0,
+    "avg_position": 5.555555555555555
+  },
+  {
+    "pattern_id": "show_api_descriptions_show_account_passwords_file_system_login",
+    "action_types": [
+      "show_api_descriptions",
+      "show_account_passwords",
+      "file_system.login"
+    ],
+    "frequency": 9,
+    "coverage": 0.1,
+    "success_rate": 1.0,
+    "avg_position": 1.4444444444444444
+  },
+  {
+    "pattern_id": "show_api_doc_show_profile_file_system_login",
+    "action_types": [
+      "show_api_doc",
+      "show_profile",
+      "file_system.login"
+    ],
+    "frequency": 9,
+    "coverage": 0.1,
+    "success_rate": 1.0,
+    "avg_position": 4.555555555555555
+  },
+  {
+    "pattern_id": "show_app_descriptions_show_api_descriptions_show_account_passwords_file_system_login",
+    "action_types": [
+      "show_app_descriptions",
+      "show_api_descriptions",
+      "show_account_passwords",
+      "file_system.login"
+    ],
+    "frequency": 9,
+    "coverage": 0.1,
+    "success_rate": 1.0,
+    "avg_position": 0.4444444444444444
+  },
+  {
+    "pattern_id": "show_api_doc_show_profile_venmo_login",
+    "action_types": [
+      "show_api_doc",
+      "show_profile",
+      "venmo.login"
+    ],
+    "frequency": 9,
+    "coverage": 0.1,
+    "success_rate": 1.0,
+    "avg_position": 4.888888888888889
+  }
+]
