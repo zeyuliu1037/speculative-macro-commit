@@ -1,4 +1,4 @@
-# Speculative Macro Commit for Faster Tool-Using Agents
+# [Speculative Macro Commit for Faster Tool-Using Agents](https://arxiv.org/abs/2609.03236)
 
 Official implementation of **Speculative Macro Commit (SMC)**. SMC verifies a
 speculative action and, when the verified prefix matches a learned macro-step,
@@ -234,13 +234,14 @@ paper execution path.
 Please cite the accompanying paper if you use this code:
 
 ```bibtex
-@inproceedings{
-anonymous2026speculative,
-title={Speculative Macro Commit for Faster Tool-Using Agents},
-author={Anonymous},
-booktitle={IEEE International Workshop on Machine Learning for Signal Processing},
-year={2026},
-url={https://openreview.net/forum?id=Rzj4sZ6h8H}
+@misc{liu2026speculativemacrocommitfaster,
+      title={Speculative Macro Commit for Faster Tool-Using Agents}, 
+      author={Zeyu Liu and Souvik Kundu and Peter A. Beerel},
+      year={2026},
+      eprint={2609.03236},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2609.03236}, 
 }
 ```
 
